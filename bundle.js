@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "36914efd12c489a280a6"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "7611024814ec740d16b9"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -40181,7 +40181,7 @@
 	exports.i(__webpack_require__(563), "");
 	
 	// module
-	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  display: flex;\n  margin: 15px 30px; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column; }\n\n.message-menu-item {\n  border-bottom: 1px solid #000;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:first-child {\n    background: #eee; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    bottom: 0;\n    height: 130px;\n    position: absolute;\n    width: 100%; }\n  .message-stream__messages {\n    height: 570px;\n    overflow: hidden;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  margin: 10px 0; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 50px 10px;\n    width: 200px; }\n\n.start-probe {\n  align-items: center;\n  display: flex;\n  height: 100%;\n  justify-content: center;\n  left: 0;\n  position: fixed;\n  top: 0;\n  width: 100%; }\n  .start-probe__background {\n    background: rgba(0, 0, 0, 0.4);\n    height: 100%;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 100%; }\n  .start-probe__content {\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    padding: 10px;\n    position: relative; }\n  .start-probe__header {\n    margin-bottom: 5px;\n    margin-left: 6px; }\n  .start-probe__date {\n    font-size: 10px;\n    margin-bottom: 5px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 15px 0; }\n  .start-probe__action {\n    text-align: right; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 200px;\n    background: #fff;\n    border: 1px solid #ccc;\n    padding: 10px;\n    right: 0; }\n  .probe-alert:hover .probe-alert__summary {\n    display: block; }\n\n.probe-alert-icon {\n  position: relative; }\n  .probe-alert-icon__count {\n    background: #f00;\n    border-radius: 10px;\n    color: #fff !important;\n    height: 20px;\n    margin: 0;\n    padding: 0 !important;\n    position: absolute;\n    right: 2px;\n    text-align: center;\n    top: 6px;\n    width: 20px; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  width: 200px;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    text-transform: uppercase; }\n  .changer-role__actions {\n    display: flex; }\n    .changer-role__actions button {\n      font-size: 10px;\n      text-transform: uppercase;\n      font-weight: bold;\n      position: relative; }\n      .changer-role__actions button.active {\n        border: 1px solid #f00; }\n      .changer-role__actions button .button-tool {\n        display: none; }\n      .changer-role__actions button:hover .button-tool {\n        display: block;\n        position: absolute;\n        left: 100%;\n        background: #fff;\n        border: 1px solid #ccc;\n        padding: 10px;\n        text-align: left;\n        width: 300px;\n        text-transform: none;\n        font-weight: normal;\n        font-size: 11px;\n        z-index: 1;\n        bottom: 0; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n", ""]);
+	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  display: flex;\n  margin: 15px 30px; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column; }\n\n.message-menu-item {\n  border-bottom: 1px solid #000;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:first-child {\n    background: #eee; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    bottom: 0;\n    height: 130px;\n    position: absolute;\n    width: 100%; }\n  .message-stream__messages {\n    height: 570px;\n    overflow: hidden;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  margin: 10px 0; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 50px 10px;\n    width: 200px; }\n\n.start-probe {\n  align-items: center;\n  display: flex;\n  height: 100%;\n  justify-content: center;\n  left: 0;\n  position: fixed;\n  top: 0;\n  width: 100%; }\n  .start-probe__background {\n    background: rgba(0, 0, 0, 0.4);\n    height: 100%;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 100%; }\n  .start-probe__content {\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    padding: 10px;\n    position: relative; }\n  .start-probe__header {\n    margin-bottom: 5px;\n    margin-left: 6px; }\n  .start-probe__date {\n    font-size: 10px;\n    margin-bottom: 5px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 15px 0; }\n  .start-probe__action {\n    text-align: right; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 200px;\n    background: #fff;\n    border: 1px solid #ccc;\n    padding: 10px;\n    right: 0; }\n  .probe-alert:hover .probe-alert__summary {\n    display: block; }\n\n.probe-alert-icon {\n  position: relative; }\n  .probe-alert-icon__count {\n    background: #f00;\n    border-radius: 10px;\n    color: #fff !important;\n    height: 20px;\n    margin: 0;\n    padding: 0 !important;\n    position: absolute;\n    right: 2px;\n    text-align: center;\n    top: 6px;\n    width: 20px; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    cursor: pointer;\n    border-bottom: 1px solid #ccc; }\n\n.changer-role__actions {\n  display: none; }\n  .changer-role__actions--active {\n    display: block; }\n\n.changer-role-story {\n  border-bottom: 1px solid #ccc;\n  padding: 5px 0;\n  margin: 5px 0; }\n  .changer-role-story__heading {\n    font-size: 11px; }\n  .changer-role-story__actions {\n    display: flex;\n    flex-direction: column; }\n    .changer-role-story__actions button {\n      font-size: 10px;\n      font-weight: bold;\n      position: relative;\n      background: none;\n      border: none;\n      padding: 0; }\n      .changer-role-story__actions button.active {\n        color: #f00; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n\n.task-list__cards {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around; }\n  .task-list__cards .task-list-card {\n    width: 32%;\n    border: 1px solid #ccc;\n    padding: 10px;\n    box-sizing: border-box;\n    margin: 10px 0; }\n    .task-list__cards .task-list-card__header {\n      font-size: 16px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid #ccc;\n      margin-bottom: 8px;\n      font-weight: bold; }\n    .task-list__cards .task-list-card__item {\n      padding: 5px 0;\n      margin: 5px 0;\n      border-bottom: 1px solid #ccc;\n      position: relative;\n      cursor: pointer; }\n      .task-list__cards .task-list-card__item:last-child {\n        border-bottom: none; }\n      .task-list__cards .task-list-card__item::before {\n        position: absolute;\n        right: 5px;\n        color: green; }\n      .task-list__cards .task-list-card__item--start::before {\n        content: '\\27A4'; }\n      .task-list__cards .task-list-card__item--view::before {\n        content: '\\1F441'; }\n      .task-list__cards .task-list-card__item--action::before {\n        content: '\\270E'; }\n", ""]);
 	
 	// exports
 
@@ -46425,6 +46425,8 @@
 	  value: true
 	});
 	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
 	var _react = __webpack_require__(146);
@@ -46459,7 +46461,11 @@
 	
 	var _TaskList2 = _interopRequireDefault(_TaskList);
 	
-	var _probes = __webpack_require__(852);
+	var _TaskCards = __webpack_require__(853);
+	
+	var _TaskCards2 = _interopRequireDefault(_TaskCards);
+	
+	var _probes = __webpack_require__(860);
 	
 	var _probes2 = _interopRequireDefault(_probes);
 	
@@ -46484,7 +46490,8 @@
 	      probe: _probes2['default'].probe,
 	      component: 'Inbox',
 	      unreadProbes: 0,
-	      type: 'researcher'
+	      type: 'researcher',
+	      expandedList: ''
 	    };
 	    _this.toggleMenu = _this.toggleMenu.bind(_this);
 	    _this.hideMenu = _this.hideMenu.bind(_this);
@@ -46546,6 +46553,10 @@
 	            unreadProbes = 1;
 	            type = 'participant';
 	            break;
+	          case 'TaskCards':
+	            unreadProbes = 1;
+	            type = 'participant';
+	            break;
 	          case 'MessageStyle':
 	            type = 'participant';
 	            break;
@@ -46575,11 +46586,10 @@
 	            return _react2['default'].createElement(_ParticipantProfile2['default'], null);
 	          case 'TaskList':
 	            return _react2['default'].createElement(_TaskList2['default'], null);
+	          case 'TaskCards':
+	            return _react2['default'].createElement(_TaskCards2['default'], _extends({}, this.props, { probe: this.state.probe }));
 	          case 'MessageStyle':
-	            return _react2['default'].createElement(_MessageStyle2['default'], {
-	              probe: this.state.probe,
-	              addMessage: this.addMessage
-	            });
+	            return _react2['default'].createElement(_MessageStyle2['default'], { probe: this.state.probe, addMessage: this.addMessage });
 	          case 'QuestionStyle':
 	            return _react2['default'].createElement(_QuestionStyle2['default'], {
 	              probe: this.state.probe,
@@ -46593,28 +46603,6 @@
 	      return pickComponent;
 	    }()
 	  }, {
-	    key: 'componentNotes',
-	    value: function () {
-	      function componentNotes(component) {
-	        switch (component) {
-	          case 'Inbox':
-	            return '3.4 Jerry must read the probe reply to inform the research & identify if a follow-up probe is required';
-	          case 'ParticipantProfile':
-	            return '3.2 Jerry must be able to send a probe to Jane about a response to engage Jane';
-	          case 'TaskList':
-	            return '5.6 Jane must know that he/she has been probed so she can reply (and provide further insight)';
-	          case 'MessageStyle':
-	            return '5.4 Jane responds to Jerry\'s probe to provide more insight';
-	          case 'QuestionStyle':
-	            return '5.4 Jane responds to Jerry\'s probe to provide more insight - Alternate to our working design, supposed to feel more like the interview questions, rather than a chat.';
-	          default:
-	            return 'I do not know';
-	        }
-	      }
-	
-	      return componentNotes;
-	    }()
-	  }, {
 	    key: 'renderButton',
 	    value: function () {
 	      function renderButton(text, componentName) {
@@ -46624,16 +46612,37 @@
 	            onClick: this.setComponent.bind(this, componentName),
 	            className: this.state.component === componentName ? 'active' : 'not'
 	          },
-	          text,
-	          _react2['default'].createElement(
-	            'div',
-	            { className: 'button-tool' },
-	            this.componentNotes(componentName)
-	          )
+	          text
 	        );
 	      }
 	
 	      return renderButton;
+	    }()
+	  }, {
+	    key: 'expandList',
+	    value: function () {
+	      function expandList(which) {
+	        var expandedList = which;
+	        if (this.state.expandedList === which) {
+	          expandedList = '';
+	        }
+	        this.setState({ expandedList: expandedList });
+	      }
+	
+	      return expandList;
+	    }()
+	  }, {
+	    key: 'activeClassName',
+	    value: function () {
+	      function activeClassName(which) {
+	        var block = 'changer-role__actions';
+	        if (this.state.expandedList === which) {
+	          return block + ' ' + block + '--active';
+	        }
+	        return block;
+	      }
+	
+	      return activeClassName;
 	    }()
 	  }, {
 	    key: 'render',
@@ -46671,14 +46680,43 @@
 	              { className: 'changer-role' },
 	              _react2['default'].createElement(
 	                'div',
-	                { className: 'changer-role__header' },
+	                {
+	                  className: 'changer-role__header',
+	                  onClick: this.expandList.bind(this, 'jerry')
+	                },
 	                'Jerry (Dashboard)'
 	              ),
 	              _react2['default'].createElement(
 	                'div',
-	                { className: 'changer-role__actions' },
-	                this.renderButton('Inbox', 'Inbox'),
-	                this.renderButton("A Participant's Profile", 'ParticipantProfile')
+	                { className: this.activeClassName('jerry') },
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'changer-role-story' },
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'changer-role-story__heading' },
+	                    '3.2 Jerry must be able to send a probe to Jane about a response'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'changer-role-story__actions' },
+	                    this.renderButton("From Participant's Profile", 'ParticipantProfile')
+	                  )
+	                ),
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'changer-role-story' },
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'changer-role-story__heading' },
+	                    '3.4 Jerry must read the probe reply'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'changer-role-story__actions' },
+	                    this.renderButton('Inbox', 'Inbox')
+	                  )
+	                )
 	              )
 	            ),
 	            _react2['default'].createElement(
@@ -46686,15 +46724,45 @@
 	              { className: 'changer__role' },
 	              _react2['default'].createElement(
 	                'div',
-	                { className: 'changer-role__header' },
+	                {
+	                  className: 'changer-role__header',
+	                  onClick: this.expandList.bind(this, 'jane')
+	                },
 	                'Jane (Discussion)'
 	              ),
 	              _react2['default'].createElement(
 	                'div',
-	                { className: 'changer-role__actions' },
-	                this.renderButton('Task List', 'TaskList'),
-	                this.renderButton('Message Style Probe', 'MessageStyle'),
-	                this.renderButton('Question Style Probe', 'QuestionStyle')
+	                { className: this.activeClassName('jane') },
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'changer-role-story' },
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'changer-role-story__heading' },
+	                    '5.6 Jane must know that he/she has been probed'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'changer-role-story__actions' },
+	                    this.renderButton('Task List', 'TaskList'),
+	                    this.renderButton('Task List Card View', 'TaskCards')
+	                  )
+	                ),
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'changer-role-story' },
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'changer-role-story__heading' },
+	                    '5.4 Jane responds to Jerry\'s probe'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'changer-role-story__actions' },
+	                    this.renderButton('Message Style Probe', 'MessageStyle'),
+	                    this.renderButton('Question Style Probe', 'QuestionStyle')
+	                  )
+	                )
 	              )
 	            )
 	          ),
@@ -48994,6 +49062,271 @@
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
 	
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _taskListing = __webpack_require__(852);
+	
+	var _taskListing2 = _interopRequireDefault(_taskListing);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var TaskList = function (_Component) {
+	  _inherits(TaskList, _Component);
+	
+	  function TaskList() {
+	    _classCallCheck(this, TaskList);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(TaskList).apply(this, arguments));
+	  }
+	
+	  _createClass(TaskList, [{
+	    key: 'render',
+	    value: function () {
+	      function render() {
+	        return _react2['default'].createElement(
+	          'div',
+	          { className: 'task-list' },
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'task-list__project' },
+	            _react2['default'].createElement(
+	              'h3',
+	              null,
+	              'Project'
+	            ),
+	            _react2['default'].createElement(
+	              'p',
+	              null,
+	              'Little summary of the project'
+	            )
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'task-list__tabs' },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'tab' },
+	              'Main Tasks'
+	            ),
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'tab' },
+	              'Anytime Tasks'
+	            )
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'task-list__tasks' },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'task-list-listing' },
+	              _taskListing2['default'].main.map(function (task) {
+	                return _react2['default'].createElement(
+	                  'div',
+	                  { className: 'task-list-listing__item' },
+	                  task.title
+	                );
+	              })
+	            )
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return TaskList;
+	}(_react.Component);
+	
+	TaskList.propTypes = {};
+	
+	exports['default'] = TaskList;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "TaskList.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 852 */
+/***/ function(module, exports) {
+
+	module.exports = {
+		"main": [
+			{
+				"title": "Tell us about your ears"
+			},
+			{
+				"title": "Whats up with your nose?"
+			},
+			{
+				"title": "Do you have any backpacks?"
+			},
+			{
+				"title": "Things about animals"
+			},
+			{
+				"title": "Ever eaten grapes?"
+			}
+		],
+		"anytime": [
+			{
+				"title": "Anytime you eat a Chocolate Bar"
+			},
+			{
+				"title": "Anytime you go for a walk"
+			},
+			{
+				"title": "Anytime you sacrifice a Ram to the great and mighty Odin"
+			}
+		],
+		"history": [
+			{
+				"title": "Anytime you eat a Chocolate Bar"
+			},
+			{
+				"title": "Do you have any backpacks?"
+			},
+			{
+				"title": "Tell us about your ears"
+			}
+		]
+	};
+
+/***/ },
+/* 853 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _ProbeCard = __webpack_require__(854);
+	
+	var _ProbeCard2 = _interopRequireDefault(_ProbeCard);
+	
+	var _MainCard = __webpack_require__(855);
+	
+	var _MainCard2 = _interopRequireDefault(_MainCard);
+	
+	var _AnytimeCard = __webpack_require__(856);
+	
+	var _AnytimeCard2 = _interopRequireDefault(_AnytimeCard);
+	
+	var _HistoryCard = __webpack_require__(857);
+	
+	var _HistoryCard2 = _interopRequireDefault(_HistoryCard);
+	
+	var _ProfileCard = __webpack_require__(858);
+	
+	var _ProfileCard2 = _interopRequireDefault(_ProfileCard);
+	
+	var _SupportCard = __webpack_require__(859);
+	
+	var _SupportCard2 = _interopRequireDefault(_SupportCard);
+	
+	var _taskListing = __webpack_require__(852);
+	
+	var _taskListing2 = _interopRequireDefault(_taskListing);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var TaskCards = function (_Component) {
+	  _inherits(TaskCards, _Component);
+	
+	  function TaskCards() {
+	    _classCallCheck(this, TaskCards);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(TaskCards).apply(this, arguments));
+	  }
+	
+	  _createClass(TaskCards, [{
+	    key: 'render',
+	    value: function () {
+	      function render() {
+	        return _react2['default'].createElement(
+	          'div',
+	          { className: 'task-list' },
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'task-list__project' },
+	            _react2['default'].createElement(
+	              'h3',
+	              null,
+	              'Project'
+	            ),
+	            _react2['default'].createElement(
+	              'p',
+	              null,
+	              'Little summary of the project'
+	            )
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'task-list__cards' },
+	            _react2['default'].createElement(_ProbeCard2['default'], this.props),
+	            _react2['default'].createElement(_MainCard2['default'], _extends({}, this.props, { taskListing: _taskListing2['default'] })),
+	            _react2['default'].createElement(_AnytimeCard2['default'], _extends({}, this.props, { taskListing: _taskListing2['default'] })),
+	            _react2['default'].createElement(_HistoryCard2['default'], _extends({}, this.props, { taskListing: _taskListing2['default'] })),
+	            _react2['default'].createElement(_ProfileCard2['default'], this.props),
+	            _react2['default'].createElement(_SupportCard2['default'], this.props)
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return TaskCards;
+	}(_react.Component);
+	
+	TaskCards.propTypes = {};
+	
+	exports['default'] = TaskCards;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "TaskCards.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 854 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
 	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
@@ -49014,95 +49347,63 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var TaskList = function (_Component) {
-	  _inherits(TaskList, _Component);
+	var ProbeCard = function (_Component) {
+	  _inherits(ProbeCard, _Component);
 	
-	  function TaskList() {
-	    _classCallCheck(this, TaskList);
+	  function ProbeCard() {
+	    _classCallCheck(this, ProbeCard);
 	
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(TaskList).apply(this, arguments));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(ProbeCard).apply(this, arguments));
 	  }
 	
-	  _createClass(TaskList, [{
+	  _createClass(ProbeCard, [{
 	    key: "render",
 	    value: function () {
 	      function render() {
+	        if (this.props.unreadProbes == 0) {
+	          return _react2["default"].createElement("div", null);
+	        }
+	        var firstMessage = this.props.probe.messages[0];
+	        var messages = this.props.probe.messages;
 	        return _react2["default"].createElement(
 	          "div",
-	          { className: "task-list" },
+	          { className: "task-list-card" },
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "task-list__project" },
-	            _react2["default"].createElement(
-	              "h3",
-	              null,
-	              "Project"
-	            ),
-	            _react2["default"].createElement(
-	              "p",
-	              null,
-	              "Little summary of the project"
-	            )
+	            { className: "task-list-card__header" },
+	            "Somebody has asked you a question"
 	          ),
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "task-list__tabs" },
+	            { className: "task-list-card__content task-list-probe" },
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "tab" },
-	              "Main Tasks"
-	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "tab" },
-	              "Anytime Tasks"
-	            )
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "task-list__tasks" },
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "task-list-listing" },
+	              { className: "task-list-card__item" },
 	              _react2["default"].createElement(
 	                "div",
-	                { className: "task-list-listing__item" },
-	                "Task 1"
+	                { className: "task-list-probe__from" },
+	                firstMessage.author,
+	                " sent you a question about one of your responses."
 	              ),
 	              _react2["default"].createElement(
 	                "div",
-	                { className: "task-list-listing__item" },
-	                "Task 2"
+	                { className: "task-list-probe__content" },
+	                messages.map(function (message) {
+	                  return _react2["default"].createElement(
+	                    "div",
+	                    { className: "task-list-probe-message" },
+	                    message.content
+	                  );
+	                })
 	              ),
 	              _react2["default"].createElement(
 	                "div",
-	                { className: "task-list-listing__item" },
-	                "Task 3"
-	              ),
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "task-list-listing__item" },
-	                "Things about animals"
-	              ),
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "task-list-listing__item" },
-	                "Task 4"
-	              ),
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "task-list-listing__item" },
-	                "Task 5"
-	              ),
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "task-list-listing__item" },
-	                "Task 6"
-	              ),
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "task-list-listing__item" },
-	                "Task 7"
+	                { className: "task-list-probe__action" },
+	                _react2["default"].createElement(
+	                  "button",
+	                  null,
+	                  "Respond"
+	                )
 	              )
 	            )
 	          )
@@ -49113,18 +49414,409 @@
 	    }()
 	  }]);
 	
-	  return TaskList;
+	  return ProbeCard;
 	}(_react.Component);
 	
-	TaskList.propTypes = {};
+	ProbeCard.propTypes = {};
 	
-	exports["default"] = TaskList;
+	exports["default"] = ProbeCard;
 	
-	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "TaskList.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "ProbeCard.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 852 */
+/* 855 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var MainCard = function (_Component) {
+	  _inherits(MainCard, _Component);
+	
+	  function MainCard() {
+	    _classCallCheck(this, MainCard);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(MainCard).apply(this, arguments));
+	  }
+	
+	  _createClass(MainCard, [{
+	    key: "render",
+	    value: function () {
+	      function render() {
+	        return _react2["default"].createElement(
+	          "div",
+	          { className: "task-list-card" },
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "task-list-card__header" },
+	            "Please complete these tasks"
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "task-list-card__content" },
+	            this.props.taskListing.main.map(function (task) {
+	              return _react2["default"].createElement(
+	                "div",
+	                { className: "task-list-card__item task-list-card__item--start" },
+	                task.title
+	              );
+	            })
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return MainCard;
+	}(_react.Component);
+	
+	MainCard.propTypes = {};
+	
+	exports["default"] = MainCard;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "MainCard.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 856 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var AnytimeCard = function (_Component) {
+	  _inherits(AnytimeCard, _Component);
+	
+	  function AnytimeCard() {
+	    _classCallCheck(this, AnytimeCard);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(AnytimeCard).apply(this, arguments));
+	  }
+	
+	  _createClass(AnytimeCard, [{
+	    key: "render",
+	    value: function () {
+	      function render() {
+	        return _react2["default"].createElement(
+	          "div",
+	          { className: "task-list-card" },
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "task-list-card__header" },
+	            "Please drop back in and do these however often you like"
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "task-list-card__content" },
+	            this.props.taskListing.anytime.map(function (task) {
+	              return _react2["default"].createElement(
+	                "div",
+	                { className: "task-list-card__item task-list-card__item--start" },
+	                task.title
+	              );
+	            })
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return AnytimeCard;
+	}(_react.Component);
+	
+	AnytimeCard.propTypes = {};
+	
+	exports["default"] = AnytimeCard;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "AnytimeCard.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 857 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var HistoryCard = function (_Component) {
+	  _inherits(HistoryCard, _Component);
+	
+	  function HistoryCard() {
+	    _classCallCheck(this, HistoryCard);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(HistoryCard).apply(this, arguments));
+	  }
+	
+	  _createClass(HistoryCard, [{
+	    key: "render",
+	    value: function () {
+	      function render() {
+	        return _react2["default"].createElement(
+	          "div",
+	          { className: "task-list-card" },
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "task-list-card__header" },
+	            "Take a look at some of the answers you've already given"
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "task-list-card__content" },
+	            this.props.taskListing.history.map(function (task) {
+	              return _react2["default"].createElement(
+	                "div",
+	                { className: "task-list-card__item task-list-card__item--view" },
+	                task.title
+	              );
+	            })
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return HistoryCard;
+	}(_react.Component);
+	
+	HistoryCard.propTypes = {};
+	
+	exports["default"] = HistoryCard;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "HistoryCard.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 858 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var ProfileCard = function (_Component) {
+	  _inherits(ProfileCard, _Component);
+	
+	  function ProfileCard() {
+	    _classCallCheck(this, ProfileCard);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(ProfileCard).apply(this, arguments));
+	  }
+	
+	  _createClass(ProfileCard, [{
+	    key: "render",
+	    value: function () {
+	      function render() {
+	        return _react2["default"].createElement(
+	          "div",
+	          { className: "task-list-card" },
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "task-list-card__header" },
+	            "Tell us about yourself"
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "task-list-card__content" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "task-list-card__item task-list-card__item--action" },
+	              "Review your name"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "task-list-card__item task-list-card__item--action" },
+	              "Upload your avatar"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "task-list-card__item task-list-card__item--action" },
+	              "Update you contact information"
+	            )
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return ProfileCard;
+	}(_react.Component);
+	
+	ProfileCard.propTypes = {};
+	
+	exports["default"] = ProfileCard;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "ProfileCard.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 859 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var SupportCard = function (_Component) {
+	  _inherits(SupportCard, _Component);
+	
+	  function SupportCard() {
+	    _classCallCheck(this, SupportCard);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(SupportCard).apply(this, arguments));
+	  }
+	
+	  _createClass(SupportCard, [{
+	    key: "render",
+	    value: function () {
+	      function render() {
+	        return _react2["default"].createElement(
+	          "div",
+	          { className: "task-list-card" },
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "task-list-card__header" },
+	            "Get in touch with us if you have any problems"
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "task-list-card__content" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "task-list-card__item" },
+	              "Email our team at ",
+	              _react2["default"].createElement(
+	                "a",
+	                { href: "mailto:support@crowdlab.com" },
+	                "support@crowdlab.com"
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "task-list-card__item" },
+	              "Call us on 011-39-06-698-83296"
+	            )
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return SupportCard;
+	}(_react.Component);
+	
+	SupportCard.propTypes = {};
+	
+	exports["default"] = SupportCard;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "SupportCard.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 860 */
 /***/ function(module, exports) {
 
 	module.exports = {
