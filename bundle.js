@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "7611024814ec740d16b9"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "4e96c9bafe1c783c090d"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -40181,7 +40181,7 @@
 	exports.i(__webpack_require__(563), "");
 	
 	// module
-	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  display: flex;\n  margin: 15px 30px; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column; }\n\n.message-menu-item {\n  border-bottom: 1px solid #000;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:first-child {\n    background: #eee; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    bottom: 0;\n    height: 130px;\n    position: absolute;\n    width: 100%; }\n  .message-stream__messages {\n    height: 570px;\n    overflow: hidden;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  margin: 10px 0; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 50px 10px;\n    width: 200px; }\n\n.start-probe {\n  align-items: center;\n  display: flex;\n  height: 100%;\n  justify-content: center;\n  left: 0;\n  position: fixed;\n  top: 0;\n  width: 100%; }\n  .start-probe__background {\n    background: rgba(0, 0, 0, 0.4);\n    height: 100%;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 100%; }\n  .start-probe__content {\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    padding: 10px;\n    position: relative; }\n  .start-probe__header {\n    margin-bottom: 5px;\n    margin-left: 6px; }\n  .start-probe__date {\n    font-size: 10px;\n    margin-bottom: 5px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 15px 0; }\n  .start-probe__action {\n    text-align: right; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 200px;\n    background: #fff;\n    border: 1px solid #ccc;\n    padding: 10px;\n    right: 0; }\n  .probe-alert:hover .probe-alert__summary {\n    display: block; }\n\n.probe-alert-icon {\n  position: relative; }\n  .probe-alert-icon__count {\n    background: #f00;\n    border-radius: 10px;\n    color: #fff !important;\n    height: 20px;\n    margin: 0;\n    padding: 0 !important;\n    position: absolute;\n    right: 2px;\n    text-align: center;\n    top: 6px;\n    width: 20px; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    cursor: pointer;\n    border-bottom: 1px solid #ccc; }\n\n.changer-role__actions {\n  display: none; }\n  .changer-role__actions--active {\n    display: block; }\n\n.changer-role-story {\n  border-bottom: 1px solid #ccc;\n  padding: 5px 0;\n  margin: 5px 0; }\n  .changer-role-story__heading {\n    font-size: 11px; }\n  .changer-role-story__actions {\n    display: flex;\n    flex-direction: column; }\n    .changer-role-story__actions button {\n      font-size: 10px;\n      font-weight: bold;\n      position: relative;\n      background: none;\n      border: none;\n      padding: 0; }\n      .changer-role-story__actions button.active {\n        color: #f00; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n\n.task-list__cards {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around; }\n  .task-list__cards .task-list-card {\n    width: 32%;\n    border: 1px solid #ccc;\n    padding: 10px;\n    box-sizing: border-box;\n    margin: 10px 0; }\n    .task-list__cards .task-list-card__header {\n      font-size: 16px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid #ccc;\n      margin-bottom: 8px;\n      font-weight: bold; }\n    .task-list__cards .task-list-card__item {\n      padding: 5px 0;\n      margin: 5px 0;\n      border-bottom: 1px solid #ccc;\n      position: relative;\n      cursor: pointer; }\n      .task-list__cards .task-list-card__item:last-child {\n        border-bottom: none; }\n      .task-list__cards .task-list-card__item::before {\n        position: absolute;\n        right: 5px;\n        color: green; }\n      .task-list__cards .task-list-card__item--start::before {\n        content: '\\27A4'; }\n      .task-list__cards .task-list-card__item--view::before {\n        content: '\\1F441'; }\n      .task-list__cards .task-list-card__item--action::before {\n        content: '\\270E'; }\n", ""]);
+	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  display: flex;\n  margin: 15px 30px; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column; }\n\n.message-menu-item {\n  border-bottom: 1px solid #000;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:first-child {\n    background: #eee; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    bottom: 0;\n    height: 130px;\n    position: absolute;\n    width: 100%; }\n  .message-stream__messages {\n    height: 570px;\n    overflow: hidden;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  flex-direction: column;\n  margin: 10px 0;\n  width: 100%; }\n  .response-grid__row {\n    display: flex; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 50px 10px;\n    width: 200px; }\n\n.start-probe {\n  align-items: center;\n  display: flex;\n  height: 100%;\n  justify-content: center;\n  left: 0;\n  position: fixed;\n  top: 0;\n  width: 100%; }\n  .start-probe__background {\n    background: rgba(0, 0, 0, 0.4);\n    height: 100%;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 100%; }\n  .start-probe__content {\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    padding: 10px;\n    position: relative; }\n  .start-probe__header {\n    margin-bottom: 5px;\n    margin-left: 6px; }\n  .start-probe__date {\n    font-size: 10px;\n    margin-bottom: 5px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 15px 0; }\n  .start-probe__action {\n    text-align: right; }\n\n.start-probe--sidebar {\n  justify-content: flex-end; }\n  .start-probe--sidebar .start-probe__content {\n    height: 100%;\n    box-sizing: border-box; }\n  .start-probe--sidebar .start-probe__header {\n    font-size: 16px; }\n  .start-probe--sidebar .start-probe__header,\n  .start-probe--sidebar .start-probe__date,\n  .start-probe--sidebar .start-probe__response,\n  .start-probe--sidebar .start-probe__from,\n  .start-probe--sidebar .start-probe__to,\n  .start-probe--sidebar .start-probe__message,\n  .start-probe--sidebar .start-probe__action {\n    margin: 30px 0; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 200px;\n    background: #fff;\n    border: 1px solid #ccc;\n    padding: 10px;\n    right: 0; }\n  .probe-alert:hover .probe-alert__summary {\n    display: block; }\n\n.probe-alert-icon {\n  position: relative; }\n  .probe-alert-icon__count {\n    background: #f00;\n    border-radius: 10px;\n    color: #fff !important;\n    height: 20px;\n    margin: 0;\n    padding: 0 !important;\n    position: absolute;\n    right: 2px;\n    text-align: center;\n    top: 6px;\n    width: 20px; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    cursor: pointer;\n    border-bottom: 1px solid #ccc; }\n\n.changer-role__actions {\n  display: none; }\n  .changer-role__actions--active {\n    display: block; }\n\n.changer-role-story {\n  border-bottom: 1px solid #ccc;\n  padding: 5px 0;\n  margin: 5px 0; }\n  .changer-role-story__heading {\n    font-size: 11px; }\n  .changer-role-story__actions {\n    display: flex;\n    flex-direction: column; }\n    .changer-role-story__actions button {\n      font-size: 10px;\n      font-weight: bold;\n      position: relative;\n      background: none;\n      border: none;\n      padding: 0; }\n      .changer-role-story__actions button.active {\n        color: #f00; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n\n.task-list__cards {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around; }\n  .task-list__cards .task-list-card {\n    width: 32%;\n    border: 1px solid #ccc;\n    padding: 10px;\n    box-sizing: border-box;\n    margin: 10px 0; }\n    .task-list__cards .task-list-card__header {\n      font-size: 16px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid #ccc;\n      margin-bottom: 8px;\n      font-weight: bold; }\n    .task-list__cards .task-list-card__item {\n      padding: 5px 0;\n      margin: 5px 0;\n      border-bottom: 1px solid #ccc;\n      position: relative;\n      cursor: pointer; }\n      .task-list__cards .task-list-card__item:last-child {\n        border-bottom: none; }\n      .task-list__cards .task-list-card__item::before {\n        position: absolute;\n        right: 5px;\n        color: green; }\n      .task-list__cards .task-list-card__item--start::before {\n        content: '\\27A4'; }\n      .task-list__cards .task-list-card__item--view::before {\n        content: '\\1F441'; }\n      .task-list__cards .task-list-card__item--action::before {\n        content: '\\270E'; }\n", ""]);
 	
 	// exports
 
@@ -46457,15 +46457,19 @@
 	
 	var _ParticipantProfile2 = _interopRequireDefault(_ParticipantProfile);
 	
-	var _TaskList = __webpack_require__(851);
+	var _ResponseGrid = __webpack_require__(851);
+	
+	var _ResponseGrid2 = _interopRequireDefault(_ResponseGrid);
+	
+	var _TaskList = __webpack_require__(852);
 	
 	var _TaskList2 = _interopRequireDefault(_TaskList);
 	
-	var _TaskCards = __webpack_require__(853);
+	var _TaskCards = __webpack_require__(854);
 	
 	var _TaskCards2 = _interopRequireDefault(_TaskCards);
 	
-	var _probes = __webpack_require__(860);
+	var _probes = __webpack_require__(861);
 	
 	var _probes2 = _interopRequireDefault(_probes);
 	
@@ -46549,6 +46553,10 @@
 	            break;
 	          case 'ParticipantProfile':
 	            break;
+	          case 'ParticipantProfileSide':
+	            break;
+	          case 'ResponseGrid':
+	            break;
 	          case 'TaskList':
 	            unreadProbes = 1;
 	            type = 'participant';
@@ -46583,7 +46591,11 @@
 	              addMessage: this.addMessage
 	            });
 	          case 'ParticipantProfile':
-	            return _react2['default'].createElement(_ParticipantProfile2['default'], null);
+	            return _react2['default'].createElement(_ParticipantProfile2['default'], { modifier: 'start-probe--lightbox' });
+	          case 'ParticipantProfileSide':
+	            return _react2['default'].createElement(_ParticipantProfile2['default'], { modifier: 'start-probe--sidebar' });
+	          case 'ResponseGrid':
+	            return _react2['default'].createElement(_ResponseGrid2['default'], { modifier: 'start-probe--sidebar' });
 	          case 'TaskList':
 	            return _react2['default'].createElement(_TaskList2['default'], null);
 	          case 'TaskCards':
@@ -46700,7 +46712,17 @@
 	                  _react2['default'].createElement(
 	                    'div',
 	                    { className: 'changer-role-story__actions' },
-	                    this.renderButton("From Participant's Profile", 'ParticipantProfile')
+	                    this.renderButton("From Participant's Profile - Lightbox", 'ParticipantProfile')
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'changer-role-story__actions' },
+	                    this.renderButton("From Participant's Profile - Sidebar", 'ParticipantProfileSide')
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'changer-role-story__actions' },
+	                    this.renderButton("From Response Grid - Sidebar", 'ResponseGrid')
 	                  )
 	                ),
 	                _react2['default'].createElement(
@@ -48688,6 +48710,12 @@
 	    key: 'render',
 	    value: function () {
 	      function render() {
+	        var response = {
+	          task: 'Things about animals',
+	          date: 'Tuesday 26th April 2016 4:35pm UTC',
+	          participant: 'Jane Fonda'
+	        };
+	
 	        return _react2['default'].createElement(
 	          'div',
 	          { className: 'participant-profile' },
@@ -48785,44 +48813,48 @@
 	                  { onClick: this.toggleProbe },
 	                  'Probe This Response'
 	                ),
-	                this.state.showProbe && _react2['default'].createElement(_StartProbe2['default'], _extends({ toggleProbe: this.toggleProbe }, this.props))
+	                this.state.showProbe && _react2['default'].createElement(_StartProbe2['default'], _extends({ toggleProbe: this.toggleProbe, response: response }, this.props))
 	              ),
 	              _react2['default'].createElement(
 	                'div',
 	                { className: 'response-grid' },
 	                _react2['default'].createElement(
 	                  'div',
-	                  { className: 'response-grid__cell' },
+	                  { className: 'response-grid__row' },
 	                  _react2['default'].createElement(
-	                    'ul',
-	                    null,
+	                    'div',
+	                    { className: 'response-grid__cell' },
 	                    _react2['default'].createElement(
-	                      'li',
+	                      'ul',
 	                      null,
-	                      'Its a badger'
-	                    ),
-	                    _react2['default'].createElement(
-	                      'li',
-	                      null,
-	                      'Its a mushroom'
+	                      _react2['default'].createElement(
+	                        'li',
+	                        null,
+	                        'Its a badger'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'li',
+	                        null,
+	                        'Its a mushroom'
+	                      )
 	                    )
-	                  )
-	                ),
-	                _react2['default'].createElement(
-	                  'div',
-	                  { className: 'response-grid__cell' },
+	                  ),
 	                  _react2['default'].createElement(
-	                    'ul',
-	                    null,
+	                    'div',
+	                    { className: 'response-grid__cell' },
 	                    _react2['default'].createElement(
-	                      'li',
+	                      'ul',
 	                      null,
-	                      'I like turtles'
-	                    ),
-	                    _react2['default'].createElement(
-	                      'li',
-	                      null,
-	                      'I hate things that aren\'t turtles'
+	                      _react2['default'].createElement(
+	                        'li',
+	                        null,
+	                        'I like turtles'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'li',
+	                        null,
+	                        'I hate things that aren\'t turtles'
+	                      )
 	                    )
 	                  )
 	                )
@@ -48955,7 +48987,7 @@
 	      function render() {
 	        return _react2['default'].createElement(
 	          'div',
-	          { className: 'start-probe' },
+	          { className: 'start-probe ' + String(this.props.modifier) },
 	          _react2['default'].createElement('div', { className: 'start-probe__background', onClick: this.props.toggleProbe }),
 	          _react2['default'].createElement(
 	            'div',
@@ -48981,7 +49013,9 @@
 	              _react2['default'].createElement(
 	                'span',
 	                null,
-	                'Things about animals, Iteration 3'
+	                this.props.response.task,
+	                ' - ',
+	                this.props.response.date
 	              )
 	            ),
 	            _react2['default'].createElement(
@@ -49009,7 +49043,7 @@
 	              _react2['default'].createElement(
 	                'span',
 	                null,
-	                'Jane Fonda'
+	                this.props.response.participant
 	              )
 	            ),
 	            _react2['default'].createElement(
@@ -49068,13 +49102,249 @@
 	  value: true
 	});
 	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
 	var _react = __webpack_require__(146);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _taskListing = __webpack_require__(852);
+	var _StartProbe = __webpack_require__(850);
+	
+	var _StartProbe2 = _interopRequireDefault(_StartProbe);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var ResponseGrid = function (_Component) {
+	  _inherits(ResponseGrid, _Component);
+	
+	  function ResponseGrid(props) {
+	    _classCallCheck(this, ResponseGrid);
+	
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(ResponseGrid).call(this, props));
+	
+	    _this.state = { showProbe: false, response: '' };
+	    _this.toggleProbe = _this.toggleProbe.bind(_this);
+	    return _this;
+	  }
+	
+	  _createClass(ResponseGrid, [{
+	    key: 'toggleProbe',
+	    value: function () {
+	      function toggleProbe(which) {
+	        var response = {
+	          task: 'Things about animals',
+	          date: 'Wednesday 26th April 2016 15:16am UTC',
+	          participant: 'Christine McVie'
+	        };
+	        if (which === 'beatles') {
+	          response = {
+	            task: 'Things about animals',
+	            date: 'Wednesday 27th April 2016 11:26am UTC',
+	            participant: 'Jane Fonda'
+	          };
+	        }
+	        this.setState({ showProbe: !this.state.showProbe, response: response });
+	      }
+	
+	      return toggleProbe;
+	    }()
+	  }, {
+	    key: 'render',
+	    value: function () {
+	      function render() {
+	        return _react2['default'].createElement(
+	          'div',
+	          { className: 'participant-profile' },
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'participant-profile__content' },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'participant-profile__header' },
+	              _react2['default'].createElement(
+	                'h2',
+	                null,
+	                'Things about animals'
+	              ),
+	              _react2['default'].createElement('hr', null)
+	            ),
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'participant-profile__responses' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'response-grid' },
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'response-grid__row response-grid__row--header' },
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'Participant'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'Question 1'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'Question 2'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'Question 3'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'Question 4'
+	                  )
+	                ),
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'response-grid__row' },
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: 'response-grid-name' },
+	                      'Jane Fonda'
+	                    ),
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: 'response-grid-date' },
+	                      'Wednesday 27th April 2016 11:26am UTC'
+	                    ),
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: 'response-grid-action' },
+	                      _react2['default'].createElement(
+	                        'button',
+	                        { onClick: this.toggleProbe.bind(this, 'beatles') },
+	                        'Probe This Response'
+	                      )
+	                    )
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'I am the walrus'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'Help'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'Yellow Submarine'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'Elenor Rigby'
+	                  )
+	                ),
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'response-grid__row' },
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: 'response-grid-name' },
+	                      'Christine McVie'
+	                    ),
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: 'response-grid-date' },
+	                      'Wednesday 26th April 2016 15:16am UTC'
+	                    ),
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: 'response-grid-action' },
+	                      _react2['default'].createElement(
+	                        'button',
+	                        { onClick: this.toggleProbe.bind(this, 'fleetwood mac') },
+	                        'Probe This Response'
+	                      )
+	                    )
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'Monday Morning'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'Rhiannon'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'Second Hand News'
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__cell' },
+	                    'The Chain'
+	                  )
+	                )
+	              )
+	            ),
+	            this.state.showProbe && _react2['default'].createElement(_StartProbe2['default'], _extends({ toggleProbe: this.toggleProbe, response: this.state.response }, this.props))
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return ResponseGrid;
+	}(_react.Component);
+	
+	ResponseGrid.propTypes = {};
+	
+	exports['default'] = ResponseGrid;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "ResponseGrid.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 852 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _taskListing = __webpack_require__(853);
 	
 	var _taskListing2 = _interopRequireDefault(_taskListing);
 	
@@ -49163,7 +49433,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 852 */
+/* 853 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -49209,7 +49479,7 @@
 	};
 
 /***/ },
-/* 853 */
+/* 854 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49228,31 +49498,31 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ProbeCard = __webpack_require__(854);
+	var _ProbeCard = __webpack_require__(855);
 	
 	var _ProbeCard2 = _interopRequireDefault(_ProbeCard);
 	
-	var _MainCard = __webpack_require__(855);
+	var _MainCard = __webpack_require__(856);
 	
 	var _MainCard2 = _interopRequireDefault(_MainCard);
 	
-	var _AnytimeCard = __webpack_require__(856);
+	var _AnytimeCard = __webpack_require__(857);
 	
 	var _AnytimeCard2 = _interopRequireDefault(_AnytimeCard);
 	
-	var _HistoryCard = __webpack_require__(857);
+	var _HistoryCard = __webpack_require__(858);
 	
 	var _HistoryCard2 = _interopRequireDefault(_HistoryCard);
 	
-	var _ProfileCard = __webpack_require__(858);
+	var _ProfileCard = __webpack_require__(859);
 	
 	var _ProfileCard2 = _interopRequireDefault(_ProfileCard);
 	
-	var _SupportCard = __webpack_require__(859);
+	var _SupportCard = __webpack_require__(860);
 	
 	var _SupportCard2 = _interopRequireDefault(_SupportCard);
 	
-	var _taskListing = __webpack_require__(852);
+	var _taskListing = __webpack_require__(853);
 	
 	var _taskListing2 = _interopRequireDefault(_taskListing);
 	
@@ -49322,7 +49592,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 854 */
+/* 855 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49425,7 +49695,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 855 */
+/* 856 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49500,7 +49770,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 856 */
+/* 857 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49575,7 +49845,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 857 */
+/* 858 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49650,7 +49920,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 858 */
+/* 859 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49733,7 +50003,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 859 */
+/* 860 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49816,7 +50086,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 860 */
+/* 861 */
 /***/ function(module, exports) {
 
 	module.exports = {
