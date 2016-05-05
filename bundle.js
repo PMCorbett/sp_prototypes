@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "26f435f902d1ca587b3e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "2eb3b0e6d1412dd4f85a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -40181,7 +40181,7 @@
 	exports.i(__webpack_require__(563), "");
 	
 	// module
-	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  display: flex;\n  margin: 15px 30px; }\n  .probe-inbox--participant {\n    margin: 0 auto;\n    max-width: 800px; }\n    .probe-inbox--participant .probe-conversation {\n      position: relative; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column; }\n\n.message-menu-item {\n  border-bottom: 1px solid #000;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:first-child {\n    background: #eee; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    bottom: 0;\n    height: 130px;\n    position: absolute;\n    width: 100%; }\n  .message-stream__messages {\n    height: 570px;\n    overflow: hidden;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  flex-direction: column;\n  margin: 10px 0;\n  width: 100%; }\n  .response-grid__row {\n    display: flex; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 50px 10px;\n    width: 200px; }\n\n.start-probe {\n  align-items: center;\n  display: flex;\n  height: 100%;\n  justify-content: center;\n  left: 0;\n  position: fixed;\n  top: 0;\n  width: 100%; }\n  .start-probe__background {\n    background: rgba(0, 0, 0, 0.4);\n    height: 100%;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 100%; }\n  .start-probe__content {\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    padding: 10px;\n    position: relative; }\n  .start-probe__header {\n    margin-bottom: 5px;\n    margin-left: 6px; }\n  .start-probe__date {\n    font-size: 10px;\n    margin-bottom: 5px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 15px;\n    margin-left: 6px; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 15px 0; }\n  .start-probe__action {\n    text-align: right; }\n\n.start-probe--sidebar {\n  justify-content: flex-end; }\n  .start-probe--sidebar .start-probe__content {\n    height: 100%;\n    box-sizing: border-box; }\n  .start-probe--sidebar .start-probe__header {\n    font-size: 16px; }\n  .start-probe--sidebar .start-probe__header,\n  .start-probe--sidebar .start-probe__date,\n  .start-probe--sidebar .start-probe__response,\n  .start-probe--sidebar .start-probe__from,\n  .start-probe--sidebar .start-probe__to,\n  .start-probe--sidebar .start-probe__message,\n  .start-probe--sidebar .start-probe__action {\n    margin: 30px 0; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 200px;\n    background: #fff;\n    border: 1px solid #ccc;\n    padding: 10px;\n    right: 0; }\n  .probe-alert:hover .probe-alert__summary {\n    display: block; }\n\n.probe-alert-icon {\n  position: relative; }\n  .probe-alert-icon__count {\n    background: #f00;\n    border-radius: 10px;\n    color: #fff !important;\n    height: 20px;\n    margin: 0;\n    padding: 0 !important;\n    position: absolute;\n    right: 2px;\n    text-align: center;\n    top: 6px;\n    width: 20px; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    cursor: pointer;\n    border-bottom: 1px solid #ccc; }\n\n.changer-role__actions {\n  display: none; }\n  .changer-role__actions--active {\n    display: block; }\n\n.changer-role-story {\n  border-bottom: 1px solid #ccc;\n  padding: 5px 0;\n  margin: 5px 0; }\n  .changer-role-story__heading {\n    font-size: 11px; }\n  .changer-role-story__actions {\n    display: flex;\n    flex-direction: column; }\n    .changer-role-story__actions button {\n      font-size: 10px;\n      font-weight: bold;\n      position: relative;\n      background: none;\n      border: none;\n      padding: 0; }\n      .changer-role-story__actions button.active {\n        color: #f00; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n\n.task-list__cards {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around; }\n  .task-list__cards .task-list-card {\n    width: 32%;\n    border: 1px solid #ccc;\n    padding: 10px;\n    box-sizing: border-box;\n    margin: 10px 0; }\n    .task-list__cards .task-list-card__header {\n      font-size: 16px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid #ccc;\n      margin-bottom: 8px;\n      font-weight: bold; }\n    .task-list__cards .task-list-card__item {\n      padding: 5px 0;\n      margin: 5px 0;\n      border-bottom: 1px solid #ccc;\n      position: relative;\n      cursor: pointer; }\n      .task-list__cards .task-list-card__item:last-child {\n        border-bottom: none; }\n      .task-list__cards .task-list-card__item::before {\n        position: absolute;\n        right: 5px;\n        color: green; }\n      .task-list__cards .task-list-card__item--start::before {\n        content: '\\27A4'; }\n      .task-list__cards .task-list-card__item--view::before {\n        content: '\\1F441'; }\n      .task-list__cards .task-list-card__item--action::before {\n        content: '\\270E'; }\n", ""]);
+	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  display: flex;\n  margin: 15px 30px; }\n  .probe-inbox--participant {\n    margin: 0 auto;\n    max-width: 800px; }\n    .probe-inbox--participant .probe-conversation {\n      position: relative; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column; }\n\n.message-menu-project {\n  border-bottom: 1px solid #000; }\n  .message-menu-project__name {\n    font-weight: bold;\n    font-size: 16px;\n    border-bottom: 1px solid #ccc;\n    padding: 10px 0; }\n  .message-menu-project__tasks {\n    padding-left: 10px; }\n\n.message-menu-task {\n  border-bottom: 1px solid #ccc; }\n  .message-menu-task:last-child {\n    border-bottom: none; }\n  .message-menu-task__name {\n    font-size: 14px;\n    padding: 5px 0; }\n  .message-menu-task__probes {\n    padding-left: 10px;\n    font-size: 12px; }\n\n.message-menu-item {\n  border-bottom: 1px solid #ccc;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:nth-child(odd) {\n    background: #eee; }\n  .message-menu-item--active {\n    background: #a8fff9 !important; }\n  .message-menu-item:last-child {\n    border-bottom: none; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    bottom: 0;\n    height: 130px;\n    position: absolute;\n    width: 100%; }\n  .message-stream__messages {\n    height: 570px;\n    overflow: hidden;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea, .float-label__text {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder, .float-label__text::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder, .float-label__text--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active, .float-label__text--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__text {\n    min-height: 30px;\n    background: transparent !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  flex-direction: row;\n  margin: 10px 0;\n  width: 100%; }\n  .response-grid__fixcolumn {\n    width: 200px; }\n  .response-grid__scrollcolumn {\n    flex: 1;\n    overflow: auto;\n    position: relative; }\n  .response-grid__scrollcontent {\n    position: absolute; }\n  .response-grid__row {\n    display: flex; }\n    .response-grid__row--header {\n      font-weight: bold; }\n      .response-grid__row--header .response-grid__cell {\n        height: 50px;\n        padding: 10px; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 30px 10px;\n    width: 200px;\n    height: 150px;\n    box-sizing: border-box; }\n\n.start-probe {\n  transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n  width: 0px; }\n  .start-probe__content {\n    transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n    background: #fff;\n    border: 1px solid #ccc;\n    box-sizing: border-box;\n    height: 100%;\n    padding: 10px;\n    position: fixed;\n    right: -310px;\n    top: 0;\n    visibility: hidden;\n    width: 310px; }\n  .start-probe--active {\n    width: 300px; }\n    .start-probe--active .start-probe__content {\n      visibility: visible;\n      right: 0; }\n  .start-probe__background {\n    display: none; }\n  .start-probe__header {\n    margin: 30px 0;\n    font-size: 16px;\n    display: flex;\n    justify-content: space-between; }\n  .start-probe__date {\n    font-size: 10px;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 30px 0; }\n  .start-probe__action {\n    margin: 30px 0;\n    text-align: right; }\n\n.start-probe-cancel {\n  background: transparent;\n  border: none;\n  color: #a00000;\n  font-size: 20px; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    right: 0;\n    z-index: 20000;\n    top: 48px; }\n    .probe-alert__summary--active {\n      display: block; }\n\n.probe-alert-icon {\n  position: relative;\n  width: 30px;\n  height: 30px;\n  padding: 10px; }\n  .probe-alert-icon::before {\n    content: '\\25CF';\n    position: absolute;\n    color: #c90000;\n    right: 6px;\n    top: 5px;\n    font-size: 30px; }\n\n.probe-summary {\n  text-transform: none;\n  padding: 10px;\n  border-bottom: 1px solid #ccc; }\n  .probe-summary:nth-child(even) {\n    background: #ededed; }\n  .probe-summary:last-child {\n    border-bottom: none; }\n  .probe-summary__researcher {\n    font-weight: bold; }\n  .probe-summary__action {\n    display: flex;\n    flex-direction: row-reverse; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    cursor: pointer;\n    border-bottom: 1px solid #ccc; }\n\n.changer-role__actions {\n  display: none; }\n  .changer-role__actions--active {\n    display: block; }\n\n.changer-role-story {\n  border-bottom: 1px solid #ccc;\n  padding: 5px 0;\n  margin: 5px 0; }\n  .changer-role-story__heading {\n    font-size: 11px; }\n  .changer-role-story__actions {\n    display: flex;\n    flex-direction: column; }\n    .changer-role-story__actions button {\n      font-size: 10px;\n      font-weight: bold;\n      position: relative;\n      background: none;\n      border: none;\n      padding: 0; }\n      .changer-role-story__actions button.active {\n        color: #f00; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n\n.task-list__cards {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around; }\n  .task-list__cards .task-list-card {\n    width: 32%;\n    border: 1px solid #ccc;\n    padding: 10px;\n    box-sizing: border-box;\n    margin: 10px 0; }\n    .task-list__cards .task-list-card__header {\n      font-size: 16px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid #ccc;\n      margin-bottom: 8px;\n      font-weight: bold; }\n    .task-list__cards .task-list-card__item {\n      padding: 5px 0;\n      margin: 5px 0;\n      border-bottom: 1px solid #ccc;\n      position: relative;\n      cursor: pointer; }\n      .task-list__cards .task-list-card__item:last-child {\n        border-bottom: none; }\n      .task-list__cards .task-list-card__item::before {\n        position: absolute;\n        right: 5px;\n        color: green; }\n      .task-list__cards .task-list-card__item--start::before {\n        content: '\\27A4'; }\n      .task-list__cards .task-list-card__item--view::before {\n        content: '\\1F441'; }\n      .task-list__cards .task-list-card__item--action::before {\n        content: '\\270E'; }\n", ""]);
 	
 	// exports
 
@@ -46489,15 +46489,19 @@
 	
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(App).call(this, props));
 	
+	    _this.setCurrentProbe = _this.setCurrentProbe.bind(_this);
 	    _this.state = {
 	      menuIsOpen: false,
-	      probe: _probes2['default'].probe,
+	      openProbeNav: false,
+	      probe: _probes2['default'].probes[0].tasks[0].probes[0],
+	      probes: _probes2['default'].probes,
 	      component: 'Inbox',
 	      unreadProbes: 0,
 	      type: 'researcher',
 	      expandedList: ''
 	    };
 	    _this.toggleMenu = _this.toggleMenu.bind(_this);
+	    _this.toggleProbeNav = _this.toggleProbeNav.bind(_this);
 	    _this.hideMenu = _this.hideMenu.bind(_this);
 	    _this.addMessage = _this.addMessage.bind(_this);
 	    _this.pickComponent = _this.pickComponent.bind(_this);
@@ -46505,6 +46509,15 @@
 	  }
 	
 	  _createClass(App, [{
+	    key: 'setCurrentProbe',
+	    value: function () {
+	      function setCurrentProbe(probe) {
+	        this.setState({ probe: probe });
+	      }
+	
+	      return setCurrentProbe;
+	    }()
+	  }, {
 	    key: 'toggleMenu',
 	    value: function () {
 	      function toggleMenu() {
@@ -46514,11 +46527,23 @@
 	      return toggleMenu;
 	    }()
 	  }, {
+	    key: 'toggleProbeNav',
+	    value: function () {
+	      function toggleProbeNav() {
+	        this.setState({ openProbeNav: !this.state.openProbeNav });
+	      }
+	
+	      return toggleProbeNav;
+	    }()
+	  }, {
 	    key: 'hideMenu',
 	    value: function () {
 	      function hideMenu() {
 	        if (this.state.menuIsOpen) {
 	          this.toggleMenu();
+	        }
+	        if (this.state.openProbeNav) {
+	          this.toggleProbeNav();
 	        }
 	      }
 	
@@ -46586,9 +46611,10 @@
 	        switch (this.state.component) {
 	          case 'Inbox':
 	            return _react2['default'].createElement(_Inbox2['default'], {
-	              probes: _probes2['default'].probes,
+	              probes: this.state.probes,
 	              probe: this.state.probe,
-	              addMessage: this.addMessage
+	              addMessage: this.addMessage,
+	              setCurrentProbe: this.setCurrentProbe
 	            });
 	          case 'ParticipantProfile':
 	            return _react2['default'].createElement(_ParticipantProfile2['default'], { modifier: 'start-probe--lightbox' });
@@ -46662,7 +46688,9 @@
 	      function render() {
 	        var participant = _probes2['default'].participant;
 	        var navigation = _probes2['default'].navigation;
-	        var menuIsOpen = this.state.menuIsOpen;
+	        var _state = this.state;
+	        var menuIsOpen = _state.menuIsOpen;
+	        var openProbeNav = _state.openProbeNav;
 	
 	        return _react2['default'].createElement(
 	          'div',
@@ -46675,8 +46703,11 @@
 	            participantId: participant.id,
 	            navigation: navigation,
 	            menu: { menuIsOpen: menuIsOpen, toggleMenu: this.toggleMenu },
+	            openProbeNav: openProbeNav,
+	            toggleProbeNav: this.toggleProbeNav,
 	            unreadProbes: this.state.unreadProbes,
 	            probe: this.state.probe,
+	            probes: this.state.probes,
 	            type: this.state.type,
 	            setComponent: this.setComponent.bind(this, 'QuestionStyle')
 	
@@ -46710,11 +46741,6 @@
 	                    'div',
 	                    { className: 'changer-role-story__heading' },
 	                    '3.2 Jerry must be able to send a probe to Jane about a response'
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'changer-role-story__actions' },
-	                    this.renderButton("From Participant's Profile - Lightbox", 'ParticipantProfile')
 	                  ),
 	                  _react2['default'].createElement(
 	                    'div',
@@ -46877,7 +46903,10 @@
 	  var unreadProbes = _ref.unreadProbes;
 	  var type = _ref.type;
 	  var probe = _ref.probe;
+	  var probes = _ref.probes;
 	  var setComponent = _ref.setComponent;
+	  var toggleProbeNav = _ref.toggleProbeNav;
+	  var openProbeNav = _ref.openProbeNav;
 	  return _react2['default'].createElement(
 	    'nav',
 	    { className: 'header-navigation', id: 'nav-wrapper' },
@@ -46902,7 +46931,7 @@
 	            _react2['default'].createElement(_Splitter2['default'], null),
 	            _react2['default'].createElement(_TaskNav2['default'], { taskName: navigation.taskList.taskName })
 	          ),
-	          _react2['default'].createElement(_ProbeAlert2['default'], { unreadProbes: unreadProbes, type: type, probe: probe, setComponent: setComponent }),
+	          _react2['default'].createElement(_ProbeAlert2['default'], { type: type, probes: probes, setComponent: setComponent, toggleProbeNav: toggleProbeNav, openProbeNav: openProbeNav }),
 	          _react2['default'].createElement(_AccountMenu2['default'], { participantId: participantId, menu: menu })
 	        )
 	      )
@@ -47279,7 +47308,7 @@
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
 	
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -47291,7 +47320,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
@@ -47309,56 +47338,116 @@
 	  }
 	
 	  _createClass(ProbeAlert, [{
-	    key: "render",
+	    key: 'personTest',
+	    value: function () {
+	      function personTest(probe) {
+	        if (this.props.type === 'participant') {
+	          return probe.recipient === 'Jane Fonda' && probe.outstanding === 'participant';
+	        }
+	        return probe.researcher === 'Jerry Gergich' && probe.outstanding === 'researcher';
+	      }
+	
+	      return personTest;
+	    }()
+	  }, {
+	    key: 'getClassName',
+	    value: function () {
+	      function getClassName() {
+	        var block = 'probe-alert__summary';
+	        if (this.props.openProbeNav) {
+	          return block + ' ' + block + '--active';
+	        }
+	        return block;
+	      }
+	
+	      return getClassName;
+	    }()
+	  }, {
+	    key: 'getProbes',
+	    value: function () {
+	      function getProbes() {
+	        var probes = [];
+	
+	        for (var i = 0; i < this.props.probes.length; i++) {
+	          var project = this.props.probes[i];
+	          for (var j = 0; j < project.tasks.length; j++) {
+	            var task = project.tasks[j];
+	            for (var k = 0; k < task.probes.length; k++) {
+	              var probe = task.probes[k];
+	              if (this.personTest(probe)) {
+	                probes.push(probe);
+	              }
+	            }
+	          }
+	        }
+	
+	        return probes;
+	      }
+	
+	      return getProbes;
+	    }()
+	  }, {
+	    key: 'countProbes',
+	    value: function () {
+	      function countProbes() {
+	        return this.getProbes().length;
+	      }
+	
+	      return countProbes;
+	    }()
+	  }, {
+	    key: 'render',
 	    value: function () {
 	      function render() {
 	        var _props = this.props;
-	        var unreadProbes = _props.unreadProbes;
-	        var probe = _props.probe;
+	        var probes = _props.probes;
 	        var setComponent = _props.setComponent;
 	
 	
-	        if (unreadProbes === 0) {
-	          return _react2["default"].createElement("div", null);
+	        if (this.countProbes() === 0) {
+	          return _react2['default'].createElement('div', null);
 	        }
-	        return _react2["default"].createElement(
-	          "div",
-	          { className: "probe-alert" },
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "probe-alert-icon" },
-	            _react2["default"].createElement("img", {
-	              className: "probe-alert-icon__image",
-	              src: "https://www.nyse.com/publicdocs/images/Bell_Icon.png"
-	            }),
-	            _react2["default"].createElement(
-	              "span",
-	              { className: "probe-alert-icon__count" },
-	              unreadProbes
-	            )
+	        return _react2['default'].createElement(
+	          'div',
+	          { className: 'probe-alert' },
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'probe-alert-icon', onClick: this.props.toggleProbeNav },
+	            _react2['default'].createElement('img', {
+	              className: 'probe-alert-icon__image',
+	              src: 'bell.png'
+	            })
 	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "probe-alert__summary probe-summary" },
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "probe-summary__note" },
-	              "New Probe from"
-	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "probe-summary__researcher" },
-	              probe.researcher
-	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "probe-summary__action" },
-	              _react2["default"].createElement(
-	                "button",
-	                { onClick: setComponent },
-	                "Reply"
-	              )
-	            )
+	          _react2['default'].createElement(
+	            'div',
+	            { className: '' + String(this.getClassName()) },
+	            this.getProbes().map(function (probe) {
+	              return _react2['default'].createElement(
+	                'div',
+	                { className: 'probe-summary' },
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'probe-summary__researcher' },
+	                  probe.researcher,
+	                  ' asked you a question'
+	                ),
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'probe-summary__content' },
+	                  probe.subject,
+	                  '...'
+	                ),
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'probe-summary__action' },
+	                  _react2['default'].createElement(
+	                    'button',
+	                    { onClick: setComponent },
+	                    'Respond'
+	                  )
+	                )
+	              );
+	            })
 	          )
 	        );
 	      }
@@ -47372,7 +47461,7 @@
 	
 	ProbeAlert.propTypes = {};
 	
-	exports["default"] = ProbeAlert;
+	exports['default'] = ProbeAlert;
 	
 	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "ProbeAlert.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
@@ -47552,7 +47641,7 @@
 	
 	var _MessageMenu2 = _interopRequireDefault(_MessageMenu);
 	
-	var _MessageStream = __webpack_require__(839);
+	var _MessageStream = __webpack_require__(843);
 	
 	var _MessageStream2 = _interopRequireDefault(_MessageStream);
 	
@@ -47613,167 +47702,6 @@
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
 	
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(146);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var MessageMenu = function (_Component) {
-	  _inherits(MessageMenu, _Component);
-	
-	  function MessageMenu() {
-	    _classCallCheck(this, MessageMenu);
-	
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(MessageMenu).apply(this, arguments));
-	  }
-	
-	  _createClass(MessageMenu, [{
-	    key: "render",
-	    value: function () {
-	      function render() {
-	        var probes = this.props.probes;
-	
-	        return _react2["default"].createElement(
-	          "div",
-	          { className: "message-menu" },
-	          probes.map(function (probe) {
-	            return _react2["default"].createElement(
-	              "div",
-	              { className: "message-menu-item" },
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "message-menu-item__recipient" },
-	                probe.recipient
-	              ),
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "message-menu-item__subject" },
-	                probe.subject
-	              ),
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "message-menu-item__date" },
-	                probe.datetime
-	              )
-	            );
-	          })
-	        );
-	      }
-	
-	      return render;
-	    }()
-	  }]);
-	
-	  return MessageMenu;
-	}(_react.Component);
-	
-	MessageMenu.propTypes = {};
-	
-	exports["default"] = MessageMenu;
-	
-	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "MessageMenu.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
-
-/***/ },
-/* 839 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
-	
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(146);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _Conversation = __webpack_require__(840);
-	
-	var _Conversation2 = _interopRequireDefault(_Conversation);
-	
-	var _Reply = __webpack_require__(841);
-	
-	var _Reply2 = _interopRequireDefault(_Reply);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var MessageStream = function (_Component) {
-	  _inherits(MessageStream, _Component);
-	
-	  function MessageStream() {
-	    _classCallCheck(this, MessageStream);
-	
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(MessageStream).apply(this, arguments));
-	  }
-	
-	  _createClass(MessageStream, [{
-	    key: 'render',
-	    value: function () {
-	      function render() {
-	        return _react2['default'].createElement(
-	          'div',
-	          { className: 'message-stream' },
-	          _react2['default'].createElement(
-	            'div',
-	            { className: 'message-stream__messages' },
-	            _react2['default'].createElement(_Conversation2['default'], this.props)
-	          ),
-	          _react2['default'].createElement(
-	            'div',
-	            { className: 'message-stream__reply' },
-	            _react2['default'].createElement(_Reply2['default'], _extends({}, this.props, { replyText: 'Reply' }))
-	          )
-	        );
-	      }
-	
-	      return render;
-	    }()
-	  }]);
-	
-	  return MessageStream;
-	}(_react.Component);
-	
-	MessageStream.propTypes = {};
-	
-	exports['default'] = MessageStream;
-	
-	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "MessageStream.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
-
-/***/ },
-/* 840 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
-	
 	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
@@ -47786,116 +47714,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var Conversation = function (_Component) {
-	  _inherits(Conversation, _Component);
-	
-	  function Conversation() {
-	    _classCallCheck(this, Conversation);
-	
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Conversation).apply(this, arguments));
-	  }
-	
-	  _createClass(Conversation, [{
-	    key: 'sortedMessages',
-	    value: function () {
-	      function sortedMessages() {
-	        return this.props.probe.messages;
-	      }
-	
-	      return sortedMessages;
-	    }()
-	  }, {
-	    key: 'getClassName',
-	    value: function () {
-	      function getClassName(message) {
-	        var block = 'probe-conversation-message';
-	        return block + ' ' + block + '--' + String(message.type);
-	      }
-	
-	      return getClassName;
-	    }()
-	  }, {
-	    key: 'render',
-	    value: function () {
-	      function render() {
-	        var _this2 = this;
-	
-	        return _react2['default'].createElement(
-	          'div',
-	          { className: 'probe-conversation' },
-	          this.sortedMessages().map(function (message) {
-	            return _react2['default'].createElement(
-	              'div',
-	              { className: _this2.getClassName(message) },
-	              _react2['default'].createElement(
-	                'div',
-	                { className: 'probe-conversation-message__from' },
-	                _react2['default'].createElement('img', {
-	                  className: 'probe-conversation-message__avatar',
-	                  src: message.avatar
-	                }),
-	                _react2['default'].createElement(
-	                  'div',
-	                  { className: 'probe-conversation-message__author' },
-	                  message.author
-	                )
-	              ),
-	              _react2['default'].createElement(
-	                'div',
-	                { className: 'probe-conversation-message__content' },
-	                message.content
-	              ),
-	              _react2['default'].createElement(
-	                'div',
-	                { className: 'probe-conversation-message__date' },
-	                message.datetime
-	              )
-	            );
-	          })
-	        );
-	      }
-	
-	      return render;
-	    }()
-	  }]);
-	
-	  return Conversation;
-	}(_react.Component);
-	
-	Conversation.propTypes = {};
-	
-	exports['default'] = Conversation;
-	
-	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Conversation.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
-
-/***/ },
-/* 841 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
-	
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(146);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactAutosizeTextarea = __webpack_require__(842);
+	var _reactAutosizeTextarea = __webpack_require__(839);
 	
 	var _reactAutosizeTextarea2 = _interopRequireDefault(_reactAutosizeTextarea);
 	
@@ -47907,22 +47726,37 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var Reply = function (_Component) {
-	  _inherits(Reply, _Component);
+	var MessageMenu = function (_Component) {
+	  _inherits(MessageMenu, _Component);
 	
-	  function Reply(props) {
-	    _classCallCheck(this, Reply);
+	  function MessageMenu(props) {
+	    _classCallCheck(this, MessageMenu);
 	
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Reply).call(this, props));
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(MessageMenu).call(this, props));
 	
 	    _this.onFocusBlur = _this.onFocusBlur.bind(_this);
 	    _this.onChange = _this.onChange.bind(_this);
-	    _this.replyClick = _this.replyClick.bind(_this);
+	    _this.getProbes = _this.getProbes.bind(_this);
 	    _this.state = { active: false, text: '' };
 	    return _this;
 	  }
 	
-	  _createClass(Reply, [{
+	  _createClass(MessageMenu, [{
+	    key: 'getProbes',
+	    value: function () {
+	      function getProbes() {
+	        var _this2 = this;
+	
+	        var probes = this.props.probes;
+	
+	        return probes.filter(function (probe) {
+	          return probe.project.toLowerCase().indexOf(_this2.state.text.toLowerCase()) > -1;
+	        });
+	      }
+	
+	      return getProbes;
+	    }()
+	  }, {
 	    key: 'onFocusBlur',
 	    value: function () {
 	      function onFocusBlur() {
@@ -47966,49 +47800,117 @@
 	      return isActiveOrNotBlank;
 	    }()
 	  }, {
-	    key: 'replyClick',
+	    key: 'renderFilter',
 	    value: function () {
-	      function replyClick() {
-	        var content = this.refs.replybox.refs.textarea.value;
-	        this.props.addMessage(content);
-	        this.setState({ text: '' });
+	      function renderFilter() {
+	        return _react2['default'].createElement(
+	          'div',
+	          { className: 'probe-message-reply-response__response float-label' },
+	          _react2['default'].createElement(
+	            'label',
+	            { className: this.getClassName('__label') },
+	            'Find by project'
+	          ),
+	          _react2['default'].createElement('input', {
+	            type: 'text',
+	            className: this.getClassName('__text'),
+	            onFocus: this.onFocusBlur,
+	            onBlur: this.onFocusBlur,
+	            onChange: this.onChange,
+	            value: this.state.text
+	          })
+	        );
 	      }
 	
-	      return replyClick;
+	      return renderFilter;
+	    }()
+	  }, {
+	    key: 'setProbe',
+	    value: function () {
+	      function setProbe(probe) {
+	        this.props.setCurrentProbe(probe);
+	      }
+	
+	      return setProbe;
+	    }()
+	  }, {
+	    key: 'getItemClass',
+	    value: function () {
+	      function getItemClass(probe) {
+	        var block = 'message-menu-item';
+	        if (probe === this.props.probe) {
+	          return block + ' ' + block + '--active';
+	        }
+	        return block;
+	      }
+	
+	      return getItemClass;
 	    }()
 	  }, {
 	    key: 'render',
 	    value: function () {
 	      function render() {
+	        var _this3 = this;
+	
 	        return _react2['default'].createElement(
 	          'div',
-	          { className: 'probe-message-reply' },
+	          { className: 'message-menu' },
 	          _react2['default'].createElement(
 	            'div',
-	            { className: 'probe-message-reply-response' },
-	            _react2['default'].createElement(
+	            { className: 'message-menu-filter' },
+	            this.renderFilter()
+	          ),
+	          this.getProbes().map(function (project) {
+	            return _react2['default'].createElement(
 	              'div',
-	              { className: 'probe-message-reply-response__response float-label' },
+	              { className: 'message-menu-project' },
 	              _react2['default'].createElement(
-	                'label',
-	                { className: this.getClassName('__label') },
-	                'Reply to this Response'
+	                'div',
+	                { className: 'message-menu-project__name' },
+	                project.project
 	              ),
-	              _react2['default'].createElement(_reactAutosizeTextarea2['default'], {
-	                className: this.getClassName('__textarea'),
-	                onFocus: this.onFocusBlur,
-	                onBlur: this.onFocusBlur,
-	                onChange: this.onChange,
-	                value: this.state.text,
-	                ref: 'replybox'
-	              })
-	            ),
-	            _react2['default'].createElement(
-	              'div',
-	              { className: 'probe-message-reply-response__button' },
-	              _react2['default'].createElement('input', { type: 'button', value: this.props.replyText, onClick: this.replyClick })
-	            )
-	          )
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'message-menu-project__tasks' },
+	                project.tasks.map(function (task) {
+	                  return _react2['default'].createElement(
+	                    'div',
+	                    { className: 'message-menu-task' },
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: 'message-menu-task__name' },
+	                      task.task
+	                    ),
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: 'message-menu-task__probes' },
+	                      task.probes.map(function (probe) {
+	                        return _react2['default'].createElement(
+	                          'div',
+	                          { className: _this3.getItemClass(probe), onClick: _this3.setProbe.bind(_this3, probe) },
+	                          _react2['default'].createElement(
+	                            'div',
+	                            { className: 'message-menu-item__recipient' },
+	                            probe.recipient
+	                          ),
+	                          _react2['default'].createElement(
+	                            'div',
+	                            { className: 'message-menu-item__subject' },
+	                            probe.subject
+	                          ),
+	                          _react2['default'].createElement(
+	                            'div',
+	                            { className: 'message-menu-item__date' },
+	                            probe.datetime
+	                          )
+	                        );
+	                      })
+	                    )
+	                  );
+	                })
+	              )
+	            );
+	          })
 	        );
 	      }
 	
@@ -48016,24 +47918,24 @@
 	    }()
 	  }]);
 	
-	  return Reply;
+	  return MessageMenu;
 	}(_react.Component);
 	
-	Reply.propTypes = {};
+	MessageMenu.propTypes = {};
 	
-	exports['default'] = Reply;
+	exports['default'] = MessageMenu;
 	
-	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Reply.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "MessageMenu.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 842 */
+/* 839 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(843);
+	module.exports = __webpack_require__(840);
 
 /***/ },
-/* 843 */
+/* 840 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -48042,7 +47944,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _TextareaAutosizeJs = __webpack_require__(844);
+	var _TextareaAutosizeJs = __webpack_require__(841);
 	
 	var _TextareaAutosizeJs2 = _interopRequireDefault(_TextareaAutosizeJs);
 	
@@ -48050,7 +47952,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 844 */
+/* 841 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -48077,7 +47979,7 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _autosize = __webpack_require__(845);
+	var _autosize = __webpack_require__(842);
 	
 	var _autosize2 = _interopRequireDefault(_autosize);
 	
@@ -48173,7 +48075,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 845 */
+/* 842 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -48432,6 +48334,343 @@
 	});
 
 /***/ },
+/* 843 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _Conversation = __webpack_require__(844);
+	
+	var _Conversation2 = _interopRequireDefault(_Conversation);
+	
+	var _Reply = __webpack_require__(845);
+	
+	var _Reply2 = _interopRequireDefault(_Reply);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var MessageStream = function (_Component) {
+	  _inherits(MessageStream, _Component);
+	
+	  function MessageStream() {
+	    _classCallCheck(this, MessageStream);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(MessageStream).apply(this, arguments));
+	  }
+	
+	  _createClass(MessageStream, [{
+	    key: 'render',
+	    value: function () {
+	      function render() {
+	        return _react2['default'].createElement(
+	          'div',
+	          { className: 'message-stream' },
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'message-stream__messages' },
+	            _react2['default'].createElement(_Conversation2['default'], this.props)
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'message-stream__reply' },
+	            _react2['default'].createElement(_Reply2['default'], _extends({}, this.props, { replyText: 'Reply' }))
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return MessageStream;
+	}(_react.Component);
+	
+	MessageStream.propTypes = {};
+	
+	exports['default'] = MessageStream;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "MessageStream.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 844 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Conversation = function (_Component) {
+	  _inherits(Conversation, _Component);
+	
+	  function Conversation() {
+	    _classCallCheck(this, Conversation);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Conversation).apply(this, arguments));
+	  }
+	
+	  _createClass(Conversation, [{
+	    key: 'sortedMessages',
+	    value: function () {
+	      function sortedMessages() {
+	        return this.props.probe.messages;
+	      }
+	
+	      return sortedMessages;
+	    }()
+	  }, {
+	    key: 'getClassName',
+	    value: function () {
+	      function getClassName(message) {
+	        var block = 'probe-conversation-message';
+	        return block + ' ' + block + '--' + String(message.type);
+	      }
+	
+	      return getClassName;
+	    }()
+	  }, {
+	    key: 'render',
+	    value: function () {
+	      function render() {
+	        var _this2 = this;
+	
+	        return _react2['default'].createElement(
+	          'div',
+	          { className: 'probe-conversation' },
+	          this.sortedMessages().map(function (message) {
+	            return _react2['default'].createElement(
+	              'div',
+	              { className: _this2.getClassName(message) },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'probe-conversation-message__from' },
+	                _react2['default'].createElement('img', {
+	                  className: 'probe-conversation-message__avatar',
+	                  src: message.avatar
+	                }),
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'probe-conversation-message__author' },
+	                  message.author
+	                )
+	              ),
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'probe-conversation-message__content' },
+	                message.content
+	              ),
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'probe-conversation-message__date' },
+	                message.datetime
+	              )
+	            );
+	          })
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return Conversation;
+	}(_react.Component);
+	
+	Conversation.propTypes = {};
+	
+	exports['default'] = Conversation;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Conversation.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 845 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactAutosizeTextarea = __webpack_require__(839);
+	
+	var _reactAutosizeTextarea2 = _interopRequireDefault(_reactAutosizeTextarea);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Reply = function (_Component) {
+	  _inherits(Reply, _Component);
+	
+	  function Reply(props) {
+	    _classCallCheck(this, Reply);
+	
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Reply).call(this, props));
+	
+	    _this.onFocusBlur = _this.onFocusBlur.bind(_this);
+	    _this.onChange = _this.onChange.bind(_this);
+	    _this.replyClick = _this.replyClick.bind(_this);
+	    _this.state = { active: false, text: '' };
+	    return _this;
+	  }
+	
+	  _createClass(Reply, [{
+	    key: 'onFocusBlur',
+	    value: function () {
+	      function onFocusBlur() {
+	        this.setState({ active: !this.state.active });
+	      }
+	
+	      return onFocusBlur;
+	    }()
+	  }, {
+	    key: 'onChange',
+	    value: function () {
+	      function onChange(event) {
+	        this.setState({ text: event.target.value });
+	      }
+	
+	      return onChange;
+	    }()
+	  }, {
+	    key: 'getClassName',
+	    value: function () {
+	      function getClassName() {
+	        var suffix = arguments.length <= 0 || arguments[0] === undefined ? '' : arguments[0];
+	
+	        var blockName = 'float-label';
+	        var baseName = blockName + suffix;
+	        if (this.isActiveOrNotBlank()) {
+	          return baseName + ' ' + baseName + '--active';
+	        }
+	        return baseName;
+	      }
+	
+	      return getClassName;
+	    }()
+	  }, {
+	    key: 'isActiveOrNotBlank',
+	    value: function () {
+	      function isActiveOrNotBlank() {
+	        return this.state.active || this.state.text !== '';
+	      }
+	
+	      return isActiveOrNotBlank;
+	    }()
+	  }, {
+	    key: 'replyClick',
+	    value: function () {
+	      function replyClick() {
+	        var content = this.refs.replybox.refs.textarea.value;
+	        this.props.addMessage(content);
+	        this.setState({ text: '' });
+	      }
+	
+	      return replyClick;
+	    }()
+	  }, {
+	    key: 'render',
+	    value: function () {
+	      function render() {
+	        return _react2['default'].createElement(
+	          'div',
+	          { className: 'probe-message-reply' },
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'probe-message-reply-response' },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'probe-message-reply-response__response float-label' },
+	              _react2['default'].createElement(
+	                'label',
+	                { className: this.getClassName('__label') },
+	                'Reply to this Response'
+	              ),
+	              _react2['default'].createElement(_reactAutosizeTextarea2['default'], {
+	                className: this.getClassName('__textarea'),
+	                onFocus: this.onFocusBlur,
+	                onBlur: this.onFocusBlur,
+	                onChange: this.onChange,
+	                value: this.state.text,
+	                ref: 'replybox'
+	              })
+	            ),
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'probe-message-reply-response__button' },
+	              _react2['default'].createElement('input', { type: 'button', value: this.props.replyText, onClick: this.replyClick })
+	            )
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return Reply;
+	}(_react.Component);
+	
+	Reply.propTypes = {};
+	
+	exports['default'] = Reply;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Reply.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
 /* 846 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -48449,7 +48688,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _MessageStream = __webpack_require__(839);
+	var _MessageStream = __webpack_require__(843);
 	
 	var _MessageStream2 = _interopRequireDefault(_MessageStream);
 	
@@ -48523,7 +48762,7 @@
 	
 	var _ProbeStimulus2 = _interopRequireDefault(_ProbeStimulus);
 	
-	var _Reply = __webpack_require__(841);
+	var _Reply = __webpack_require__(845);
 	
 	var _Reply2 = _interopRequireDefault(_Reply);
 	
@@ -48816,8 +49055,7 @@
 	                  'button',
 	                  { onClick: this.toggleProbe },
 	                  'Probe This Response'
-	                ),
-	                this.state.showProbe && _react2['default'].createElement(_StartProbe2['default'], _extends({ toggleProbe: this.toggleProbe, response: response }, this.props))
+	                )
 	              ),
 	              _react2['default'].createElement(
 	                'div',
@@ -48861,7 +49099,12 @@
 	                      )
 	                    )
 	                  )
-	                )
+	                ),
+	                _react2['default'].createElement(_StartProbe2['default'], _extends({
+	                  toggleProbe: this.toggleProbe,
+	                  response: response,
+	                  active: this.state.showProbe
+	                }, this.props))
 	              )
 	            )
 	          )
@@ -48900,7 +49143,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactAutosizeTextarea = __webpack_require__(842);
+	var _reactAutosizeTextarea = __webpack_require__(839);
 	
 	var _reactAutosizeTextarea2 = _interopRequireDefault(_reactAutosizeTextarea);
 	
@@ -48979,11 +49222,17 @@
 	      return isActiveOrNotBlank;
 	    }()
 	  }, {
-	    key: 'noop',
+	    key: 'getDisplayClass',
 	    value: function () {
-	      function noop() {}
+	      function getDisplayClass() {
+	        var block = 'start-probe';
+	        if (this.props.active) {
+	          return block + ' ' + block + '--active';
+	        }
+	        return block;
+	      }
 	
-	      return noop;
+	      return getDisplayClass;
 	    }()
 	  }, {
 	    key: 'render',
@@ -48991,15 +49240,23 @@
 	      function render() {
 	        return _react2['default'].createElement(
 	          'div',
-	          { className: 'start-probe ' + String(this.props.modifier) },
-	          _react2['default'].createElement('div', { className: 'start-probe__background', onClick: this.props.toggleProbe }),
+	          { className: this.getDisplayClass() },
 	          _react2['default'].createElement(
 	            'div',
-	            { className: 'start-probe__content', onClick: this.noop },
+	            { className: 'start-probe__content' },
 	            _react2['default'].createElement(
 	              'div',
 	              { className: 'start-probe__header' },
-	              'Probe Message'
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'start-probe-title' },
+	                'Probe Message'
+	              ),
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'start-probe-cancel', onClick: this.props.toggleProbe },
+	                '✗'
+	              )
 	            ),
 	            _react2['default'].createElement(
 	              'div',
@@ -49188,130 +49445,159 @@
 	                { className: 'response-grid' },
 	                _react2['default'].createElement(
 	                  'div',
-	                  { className: 'response-grid__row response-grid__row--header' },
+	                  { className: 'response-grid__fixcolumn' },
 	                  _react2['default'].createElement(
 	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'Participant'
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'Question 1'
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'Question 2'
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'Question 3'
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'Question 4'
-	                  )
-	                ),
-	                _react2['default'].createElement(
-	                  'div',
-	                  { className: 'response-grid__row' },
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
+	                    { className: 'response-grid__row response-grid__row--header' },
 	                    _react2['default'].createElement(
 	                      'div',
-	                      { className: 'response-grid-name' },
-	                      'Jane Fonda'
-	                    ),
+	                      { className: 'response-grid__cell' },
+	                      'Participant'
+	                    )
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'response-grid__row' },
 	                    _react2['default'].createElement(
 	                      'div',
-	                      { className: 'response-grid-date' },
-	                      'Wednesday 27th April 2016 11:26am UTC'
-	                    ),
-	                    _react2['default'].createElement(
-	                      'div',
-	                      { className: 'response-grid-action' },
+	                      { className: 'response-grid__cell' },
 	                      _react2['default'].createElement(
-	                        'button',
-	                        { onClick: this.toggleProbe.bind(this, 'beatles') },
-	                        'Probe This Response'
+	                        'div',
+	                        { className: 'response-grid-name' },
+	                        'Jane Fonda'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid-date' },
+	                        'Wednesday 27th April 2016 11:26am UTC'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid-action' },
+	                        _react2['default'].createElement(
+	                          'button',
+	                          { onClick: this.toggleProbe.bind(this, 'beatles') },
+	                          'Probe This Response'
+	                        )
 	                      )
 	                    )
 	                  ),
 	                  _react2['default'].createElement(
 	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'I am the walrus'
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'Help'
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'Yellow Submarine'
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'Elenor Rigby'
+	                    { className: 'response-grid__row' },
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: 'response-grid__cell' },
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid-name' },
+	                        'Christine McVie'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid-date' },
+	                        'Wednesday 26th April 2016 15:16am UTC'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid-action' },
+	                        _react2['default'].createElement(
+	                          'button',
+	                          { onClick: this.toggleProbe.bind(this, 'fleetwood mac') },
+	                          'Probe This Response'
+	                        )
+	                      )
+	                    )
 	                  )
 	                ),
 	                _react2['default'].createElement(
 	                  'div',
-	                  { className: 'response-grid__row' },
+	                  { className: 'response-grid__scrollcolumn' },
 	                  _react2['default'].createElement(
 	                    'div',
-	                    { className: 'response-grid__cell' },
+	                    { className: 'response-grid__scrollcontent' },
 	                    _react2['default'].createElement(
 	                      'div',
-	                      { className: 'response-grid-name' },
-	                      'Christine McVie'
-	                    ),
-	                    _react2['default'].createElement(
-	                      'div',
-	                      { className: 'response-grid-date' },
-	                      'Wednesday 26th April 2016 15:16am UTC'
-	                    ),
-	                    _react2['default'].createElement(
-	                      'div',
-	                      { className: 'response-grid-action' },
+	                      { className: 'response-grid__row response-grid__row--header' },
 	                      _react2['default'].createElement(
-	                        'button',
-	                        { onClick: this.toggleProbe.bind(this, 'fleetwood mac') },
-	                        'Probe This Response'
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'Question 1'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'Question 2'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'Question 3'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'Question 4'
+	                      )
+	                    ),
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: 'response-grid__row' },
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'I am the walrus'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'Help'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'Yellow Submarine'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'Elenor Rigby'
+	                      )
+	                    ),
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: 'response-grid__row' },
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'Monday Morning'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'Rhiannon'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'Second Hand News'
+	                      ),
+	                      _react2['default'].createElement(
+	                        'div',
+	                        { className: 'response-grid__cell' },
+	                        'The Chain'
 	                      )
 	                    )
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'Monday Morning'
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'Rhiannon'
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'Second Hand News'
-	                  ),
-	                  _react2['default'].createElement(
-	                    'div',
-	                    { className: 'response-grid__cell' },
-	                    'The Chain'
 	                  )
-	                )
+	                ),
+	                _react2['default'].createElement(_StartProbe2['default'], _extends({
+	                  toggleProbe: this.toggleProbe,
+	                  response: this.state.response
+	                }, this.props, {
+	                  active: this.state.showProbe
+	                }))
 	              )
-	            ),
-	            this.state.showProbe && _react2['default'].createElement(_StartProbe2['default'], _extends({ toggleProbe: this.toggleProbe, response: this.state.response }, this.props))
+	            )
 	          )
 	        );
 	      }
@@ -50113,39 +50399,178 @@
 		},
 		"probes": [
 			{
-				"recipient": "Big Dave",
-				"subject": "You said you eat people",
-				"datetime": "4:29 Friday, 29 April 2016"
+				"project": "Project on apples",
+				"tasks": [
+					{
+						"task": "Tell me about your apples",
+						"probes": [
+							{
+								"researcher": "Jerry Gergich",
+								"recipient": "Jane Fonda",
+								"subject": "Are you really Jane Fonda?",
+								"datetime": "17:36 Thursday, 5 May 2016",
+								"outstanding": "participant",
+								"messages": [
+									{
+										"author": "Jerry Gergigh",
+										"avatar": "http://www.cbc.ca/smartestperson/content/image/avatar-placeholder.png",
+										"datetime": "17:36 Thursday, 5 May 2016",
+										"content": "Your name is Jane Fonda, are you really Jane Fonda? Like the legit Jane Fonda?",
+										"type": "researcher"
+									}
+								]
+							},
+							{
+								"researcher": "Jerry Gergich",
+								"recipient": "Big Dave",
+								"subject": "You said you eat people",
+								"datetime": "4:29 Friday, 29 April 2016",
+								"outstanding": "participant",
+								"messages": [
+									{
+										"author": "Jerry Gergigh",
+										"avatar": "http://www.cbc.ca/smartestperson/content/image/avatar-placeholder.png",
+										"datetime": "4:29 Friday, 29 April 2016",
+										"content": "Hi Big Dave, you said you eat people. While that is worrying in itself, the questions we asked were more to do with apples. Please tell us something about apples.",
+										"type": "researcher"
+									}
+								]
+							},
+							{
+								"researcher": "Jerry Gergich",
+								"recipient": "Fat Alice",
+								"subject": "You said you got banned from Wales",
+								"datetime": "4:10 Friday, 29 April 2016",
+								"outstanding": "participant",
+								"messages": [
+									{
+										"author": "Jerry Gergigh",
+										"avatar": "http://www.cbc.ca/smartestperson/content/image/avatar-placeholder.png",
+										"datetime": "4:10 Friday, 29 April 2016",
+										"content": "You said you got banned from Wales for eating too many apples. This seems unusual, could you tell me what prompted the Welsh authorities to ban you?",
+										"type": "researcher"
+									}
+								]
+							}
+						]
+					},
+					{
+						"task": "Whats the deal with airline food?",
+						"probes": [
+							{
+								"researcher": "Jerry Gergich",
+								"recipient": "Jane Fonda",
+								"subject": "Seriously, are you actually Jane Fonda?",
+								"datetime": "17:36 Thursday, 5 May 2016",
+								"outstanding": "participant",
+								"messages": [
+									{
+										"author": "Jerry Gergigh",
+										"avatar": "http://www.cbc.ca/smartestperson/content/image/avatar-placeholder.png",
+										"datetime": "17:36 Thursday, 5 May 2016",
+										"content": "Your name is Jane Fonda, are you really Jane Fonda? Like the legit Jane Fonda?",
+										"type": "researcher"
+									}
+								]
+							},
+							{
+								"researcher": "Jerry Gergich",
+								"recipient": "Chubby Steve",
+								"subject": "You said you cooked your own hand",
+								"datetime": "3:29 Friday, 29 April 2016",
+								"outstanding": "participant",
+								"messages": [
+									{
+										"author": "Jerry Gergigh",
+										"avatar": "http://www.cbc.ca/smartestperson/content/image/avatar-placeholder.png",
+										"datetime": "3:29 Friday, 29 April 2016",
+										"content": "You said you cooked your own hand and made it sound deliberate. Were you planning on eating your hand? Was this as an alternative to the airline food?",
+										"type": "researcher"
+									}
+								]
+							},
+							{
+								"researcher": "Jerry Gergich",
+								"recipient": "Homely Kelly",
+								"subject": "You said your favourite colour was tarmac",
+								"datetime": "3:10 Friday, 29 April 2016",
+								"outstanding": "participant",
+								"messages": [
+									{
+										"author": "Jerry Gergigh",
+										"avatar": "http://www.cbc.ca/smartestperson/content/image/avatar-placeholder.png",
+										"datetime": "3:10 Friday, 29 April 2016",
+										"content": "You said your favourite colour was tarmac. I hate to be the bearer of bad news, but tarmac is not itself a colour. Did you perhaps mean black, the colour of tarmac? Or can you just not spell turkwoize?",
+										"type": "researcher"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
-				"recipient": "Fat Alice",
-				"subject": "You said you got banned from Wales",
-				"datetime": "4:10 Friday, 29 April 2016"
-			},
-			{
-				"recipient": "Chubby Steve",
-				"subject": "You said you cooked your own hand",
-				"datetime": "3:29 Friday, 29 April 2016"
-			},
-			{
-				"recipient": "Homely Kelly",
-				"subject": "You said your favourite colour was tarmac",
-				"datetime": "3:10 Friday, 29 April 2016"
-			},
-			{
-				"recipient": "Thick-set Dennis",
-				"subject": "You said you favour hens over boats",
-				"datetime": "2:29 Friday, 29 April 2016"
-			},
-			{
-				"recipient": "Chunky Bob",
-				"subject": "You said your mother died before you were born",
-				"datetime": "2:10 Friday, 29 April 2016"
-			},
-			{
-				"recipient": "Flabby Ken",
-				"subject": "You said you had two sets of feet",
-				"datetime": "1:29 Friday, 29 April 2016"
+				"project": "The Seven Kings of Rome",
+				"tasks": [
+					{
+						"task": "Romulus",
+						"probes": [
+							{
+								"researcher": "Jerry Gergich",
+								"recipient": "Thick-set Dennis",
+								"subject": "You said you favour hens over boats",
+								"datetime": "2:29 Friday, 29 April 2016",
+								"outstanding": "participant",
+								"messages": [
+									{
+										"author": "Jerry Gergigh",
+										"avatar": "http://www.cbc.ca/smartestperson/content/image/avatar-placeholder.png",
+										"datetime": "2:29 Friday, 29 April 2016",
+										"content": "You said you favour hens over boats, is this a clever commentary on Romulus and Remus being on the river bank in a basket?",
+										"type": "researcher"
+									}
+								]
+							},
+							{
+								"researcher": "Jerry Gergich",
+								"recipient": "Chunky Bob",
+								"subject": "You said wolves are the tits, wheyooo!",
+								"datetime": "2:10 Friday, 29 April 2016",
+								"outstanding": "participant",
+								"messages": [
+									{
+										"author": "Jerry Gergigh",
+										"avatar": "http://www.cbc.ca/smartestperson/content/image/avatar-placeholder.png",
+										"datetime": "2:10 Friday, 29 April 2016",
+										"content": "You said wolves are the tits, wheyooo! Which is nice and all, but you should understand that the she-wolf suckling the babies, Romulus and Remus, isn't meant to be taken literally.",
+										"type": "researcher"
+									}
+								]
+							}
+						]
+					},
+					{
+						"task": "Numa",
+						"probes": [
+							{
+								"researcher": "Jerry Gergich",
+								"recipient": "Flabby Ken",
+								"subject": "You said you had two sets of feet",
+								"datetime": "1:29 Friday, 29 April 2016",
+								"outstanding": "participant",
+								"messages": [
+									{
+										"author": "Jerry Gergigh",
+										"avatar": "http://www.cbc.ca/smartestperson/content/image/avatar-placeholder.png",
+										"datetime": "1:29 Friday, 29 April 2016",
+										"content": "You said the only way to ensure lawfullness in a warlike society is religion. That is an observation shared by Maciavelli, noice.",
+										"type": "researcher"
+									}
+								]
+							}
+						]
+					}
+				]
 			}
 		],
 		"bigprobe": {
