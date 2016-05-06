@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f1fac4679d2d2a2c1eb7"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "eddb74ca4b5577b2cc4f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -40181,7 +40181,7 @@
 	exports.i(__webpack_require__(563), "");
 	
 	// module
-	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  border-left: 1px solid;\n  border-right: 1px solid;\n  display: flex;\n  margin: 0 auto;\n  max-width: 1200px;\n  padding: 15px; }\n  .probe-inbox--participant {\n    margin: 0 auto;\n    max-width: 800px; }\n    .probe-inbox--participant .probe-conversation {\n      position: relative; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column; }\n\n.message-menu-project {\n  border-bottom: 1px solid #000; }\n  .message-menu-project__name {\n    font-weight: bold;\n    font-size: 16px;\n    border-bottom: 1px solid #ccc;\n    padding: 10px 0; }\n  .message-menu-project__tasks {\n    padding-left: 10px; }\n\n.message-menu-task {\n  border-bottom: 1px solid #ccc; }\n  .message-menu-task:last-child {\n    border-bottom: none; }\n  .message-menu-task__name {\n    font-size: 14px;\n    padding: 5px 0; }\n  .message-menu-task__probes {\n    padding-left: 10px;\n    font-size: 12px; }\n\n.message-menu-item {\n  border-bottom: 1px solid #ccc;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:nth-child(odd) {\n    background: #eee; }\n  .message-menu-item--active {\n    background: #a8fff9 !important; }\n  .message-menu-item:last-child {\n    border-bottom: none; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    bottom: 0;\n    height: 130px;\n    position: absolute;\n    width: 100%; }\n  .message-stream__messages {\n    height: 570px;\n    overflow: hidden;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute;\n  width: 100%; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px;\n  width: 60%; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right;\n    align-self: flex-end; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea, .float-label__text {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder, .float-label__text::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder, .float-label__text--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active, .float-label__text--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__text {\n    min-height: 30px;\n    background: transparent !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  flex-direction: row;\n  margin: 10px 0;\n  width: 100%; }\n  .response-grid__fixcolumn {\n    width: 200px; }\n  .response-grid__scrollcolumn {\n    flex: 1;\n    overflow: auto;\n    position: relative; }\n  .response-grid__scrollcontent {\n    position: absolute; }\n  .response-grid__row {\n    display: flex; }\n    .response-grid__row--header {\n      font-weight: bold; }\n      .response-grid__row--header .response-grid__cell {\n        height: 50px;\n        padding: 10px; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 30px 10px;\n    width: 200px;\n    height: 150px;\n    box-sizing: border-box; }\n\n.start-probe {\n  transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n  width: 0px; }\n  .start-probe__content {\n    transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n    background: #fff;\n    border: 1px solid #ccc;\n    box-sizing: border-box;\n    height: 100%;\n    padding: 10px;\n    position: fixed;\n    right: -310px;\n    top: 0;\n    visibility: hidden;\n    width: 310px; }\n  .start-probe--active {\n    width: 300px; }\n    .start-probe--active .start-probe__content {\n      visibility: visible;\n      right: 0; }\n  .start-probe__background {\n    display: none; }\n  .start-probe__header {\n    margin: 30px 0;\n    font-size: 16px;\n    display: flex;\n    justify-content: space-between; }\n  .start-probe__date {\n    font-size: 10px;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 30px 0; }\n  .start-probe__action {\n    margin: 30px 0;\n    text-align: right; }\n\n.start-probe-cancel {\n  background: transparent;\n  border: none;\n  color: #a00000;\n  font-size: 20px; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    right: 0;\n    z-index: 20000;\n    top: 48px; }\n    .probe-alert__summary--active {\n      display: block; }\n\n.probe-alert-icon {\n  position: relative;\n  width: 30px;\n  height: 30px;\n  padding: 10px; }\n  .probe-alert-icon::before {\n    content: '\\25CF';\n    position: absolute;\n    color: #c90000;\n    right: 6px;\n    top: 5px;\n    font-size: 30px; }\n\n.probe-summary {\n  text-transform: none;\n  padding: 10px;\n  border-bottom: 1px solid #ccc;\n  display: flex;\n  flex-direction: column;\n  position: relative; }\n  .probe-summary::before {\n    content: '\\27A4';\n    position: absolute;\n    right: 5px;\n    font-size: 20px;\n    top: 38px;\n    color: #30C8C0; }\n  .probe-summary:nth-child(even) {\n    background: #ededed; }\n  .probe-summary:hover {\n    background: #f5f5f5; }\n  .probe-summary:last-child {\n    border-bottom: none; }\n  .probe-summary__researcher {\n    font-weight: bold; }\n  .probe-summary__action {\n    display: flex;\n    flex-direction: row-reverse; }\n  .probe-summary__from {\n    display: flex;\n    flex-direction: row; }\n  .probe-summary__avatar {\n    width: 30px;\n    margin-right: 10px; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    cursor: pointer;\n    border-bottom: 1px solid #ccc; }\n\n.changer-role__actions {\n  display: none; }\n  .changer-role__actions--active {\n    display: block; }\n\n.changer-role-story {\n  border-bottom: 1px solid #ccc;\n  padding: 5px 0;\n  margin: 5px 0; }\n  .changer-role-story__heading {\n    font-size: 11px; }\n  .changer-role-story__actions {\n    display: flex;\n    flex-direction: column; }\n    .changer-role-story__actions button {\n      font-size: 10px;\n      font-weight: bold;\n      position: relative;\n      background: none;\n      border: none;\n      padding: 0; }\n      .changer-role-story__actions button.active {\n        color: #f00; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n\n.task-list__cards {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around; }\n  .task-list__cards .task-list-card {\n    width: 32%;\n    border: 1px solid #ccc;\n    padding: 10px;\n    box-sizing: border-box;\n    margin: 10px 0; }\n    .task-list__cards .task-list-card__header {\n      font-size: 16px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid #ccc;\n      margin-bottom: 8px;\n      font-weight: bold; }\n    .task-list__cards .task-list-card__item {\n      padding: 5px 0;\n      margin: 5px 0;\n      border-bottom: 1px solid #ccc;\n      position: relative;\n      cursor: pointer; }\n      .task-list__cards .task-list-card__item:last-child {\n        border-bottom: none; }\n      .task-list__cards .task-list-card__item::before {\n        position: absolute;\n        right: 5px;\n        color: green; }\n      .task-list__cards .task-list-card__item--start::before {\n        content: '\\27A4'; }\n      .task-list__cards .task-list-card__item--view::before {\n        content: '\\1F441'; }\n      .task-list__cards .task-list-card__item--action::before {\n        content: '\\270E'; }\n", ""]);
+	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  border-left: 1px solid;\n  border-right: 1px solid;\n  display: flex;\n  margin: 0 auto;\n  max-width: 1200px;\n  padding: 15px; }\n  .probe-inbox--participant {\n    margin: 0 auto;\n    max-width: 800px; }\n    .probe-inbox--participant .probe-conversation {\n      position: relative; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column; }\n\n.message-menu-project {\n  border-bottom: 1px solid #000; }\n  .message-menu-project__name {\n    font-weight: bold;\n    font-size: 16px;\n    border-bottom: 1px solid #ccc;\n    padding: 10px 0; }\n  .message-menu-project__tasks {\n    padding-left: 10px; }\n\n.message-menu-task {\n  border-bottom: 1px solid #ccc; }\n  .message-menu-task:last-child {\n    border-bottom: none; }\n  .message-menu-task__name {\n    font-size: 14px;\n    padding: 5px 0; }\n  .message-menu-task__probes {\n    padding-left: 10px;\n    font-size: 12px; }\n\n.message-menu-item {\n  border-bottom: 1px solid #ccc;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:nth-child(odd) {\n    background: #eee; }\n  .message-menu-item--active {\n    background: #a8fff9 !important; }\n  .message-menu-item:last-child {\n    border-bottom: none; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    bottom: 0;\n    height: 130px;\n    position: absolute;\n    width: 100%; }\n  .message-stream__messages {\n    height: 570px;\n    overflow: hidden;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute;\n  width: 100%; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px;\n  width: 60%; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right;\n    align-self: flex-end; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea, .float-label__text {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder, .float-label__text::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder, .float-label__text--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active, .float-label__text--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__text {\n    min-height: 30px;\n    background: transparent !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  flex-direction: row;\n  margin: 10px 0;\n  width: 100%; }\n  .response-grid__fixcolumn {\n    width: 200px; }\n  .response-grid__scrollcolumn {\n    flex: 1;\n    overflow: auto;\n    position: relative; }\n  .response-grid__scrollcontent {\n    position: absolute; }\n  .response-grid__row {\n    display: flex; }\n    .response-grid__row--header {\n      font-weight: bold; }\n      .response-grid__row--header .response-grid__cell {\n        height: 50px;\n        padding: 10px; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 30px 10px;\n    width: 200px;\n    height: 150px;\n    box-sizing: border-box; }\n\n.start-probe {\n  transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n  width: 0px; }\n  .start-probe__content {\n    transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n    background: #fff;\n    border: 1px solid #ccc;\n    box-sizing: border-box;\n    height: 100%;\n    padding: 10px;\n    position: fixed;\n    right: -310px;\n    top: 0;\n    visibility: hidden;\n    width: 310px; }\n  .start-probe--active {\n    width: 300px; }\n    .start-probe--active .start-probe__content {\n      visibility: visible;\n      right: 0; }\n  .start-probe__background {\n    display: none; }\n  .start-probe__header {\n    margin: 30px 0;\n    font-size: 16px;\n    display: flex;\n    justify-content: space-between; }\n  .start-probe__date {\n    font-size: 10px;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 30px 0; }\n  .start-probe__action {\n    margin: 30px 0;\n    text-align: right; }\n\n.start-probe-cancel {\n  background: transparent;\n  border: none;\n  color: #a00000;\n  font-size: 20px; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    right: 0;\n    z-index: 20000;\n    top: 48px; }\n    .probe-alert__summary--active {\n      display: block; }\n\n.probe-alert-icon {\n  position: relative;\n  width: 30px;\n  height: 30px;\n  padding: 10px; }\n  .probe-alert-icon::before {\n    content: '\\25CF';\n    position: absolute;\n    color: #c90000;\n    right: 6px;\n    top: 5px;\n    font-size: 30px; }\n\n.probe-summary {\n  text-transform: none;\n  padding: 10px;\n  border-bottom: 1px solid #ccc;\n  display: flex;\n  flex-direction: column;\n  position: relative; }\n  .probe-summary::before {\n    content: '\\27A4';\n    position: absolute;\n    right: 5px;\n    font-size: 20px;\n    top: 38px;\n    color: #30C8C0; }\n  .probe-summary:nth-child(even) {\n    background: #ededed; }\n  .probe-summary:hover {\n    background: #f5f5f5; }\n  .probe-summary:last-child {\n    border-bottom: none; }\n  .probe-summary__researcher {\n    font-weight: bold; }\n  .probe-summary__action {\n    display: flex;\n    flex-direction: row-reverse; }\n  .probe-summary__from {\n    display: flex;\n    flex-direction: row; }\n  .probe-summary__avatar {\n    width: 30px;\n    margin-right: 10px; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    cursor: pointer;\n    border-bottom: 1px solid #ccc; }\n\n.changer-role__actions {\n  display: none; }\n  .changer-role__actions--active {\n    display: block; }\n\n.changer-role-story {\n  border-bottom: 1px solid #ccc;\n  padding: 5px 0;\n  margin: 5px 0; }\n  .changer-role-story__heading {\n    font-size: 11px; }\n  .changer-role-story__actions {\n    display: flex;\n    flex-direction: column; }\n    .changer-role-story__actions button {\n      font-size: 10px;\n      font-weight: bold;\n      position: relative;\n      background: none;\n      border: none;\n      padding: 0; }\n      .changer-role-story__actions button.active {\n        color: #f00; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n\n.task-list__cards {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around; }\n  .task-list__cards .task-list-card {\n    width: 32%;\n    border: 1px solid #ccc;\n    padding: 10px;\n    box-sizing: border-box;\n    margin: 10px 0; }\n    .task-list__cards .task-list-card__header {\n      font-size: 16px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid #ccc;\n      margin-bottom: 8px;\n      font-weight: bold; }\n    .task-list__cards .task-list-card__item {\n      padding: 5px 0;\n      margin: 5px 0;\n      border-bottom: 1px solid #ccc;\n      position: relative;\n      cursor: pointer; }\n      .task-list__cards .task-list-card__item:last-child {\n        border-bottom: none; }\n      .task-list__cards .task-list-card__item::before {\n        position: absolute;\n        right: 5px;\n        color: green; }\n      .task-list__cards .task-list-card__item--start::before {\n        content: '\\27A4'; }\n      .task-list__cards .task-list-card__item--view::before {\n        content: '\\1F441'; }\n      .task-list__cards .task-list-card__item--action::before {\n        content: '\\270E'; }\n\n.probe-list {\n  margin: 30px 0;\n  display: flex;\n  flex-direction: column; }\n  .probe-list__heading {\n    font-size: 28px;\n    padding: 10px 0;\n    margin: 5px 0;\n    border-bottom: 1px solid #ccc; }\n  .probe-list__content {\n    border-bottom: 1px solid #ccc; }\n    .probe-list__content .probe-summary {\n      cursor: pointer; }\n      .probe-list__content .probe-summary::before {\n        right: 30px;\n        top: 24px; }\n", ""]);
 	
 	// exports
 
@@ -46465,11 +46465,11 @@
 	
 	var _TaskList2 = _interopRequireDefault(_TaskList);
 	
-	var _TaskCards = __webpack_require__(854);
+	var _TaskCards = __webpack_require__(855);
 	
 	var _TaskCards2 = _interopRequireDefault(_TaskCards);
 	
-	var _probes = __webpack_require__(861);
+	var _probes = __webpack_require__(862);
 	
 	var _probes2 = _interopRequireDefault(_probes);
 	
@@ -46661,7 +46661,7 @@
 	          case 'ResponseGrid':
 	            return _react2['default'].createElement(_ResponseGrid2['default'], { modifier: 'start-probe--sidebar', addProbe: this.addProbe.bind(this) });
 	          case 'TaskList':
-	            return _react2['default'].createElement(_TaskList2['default'], null);
+	            return _react2['default'].createElement(_TaskList2['default'], _extends({}, this.props, { probes: this.state.probes, setComponent: this.setComponent.bind(this, 'QuestionStyle') }));
 	          case 'TaskCards':
 	            return _react2['default'].createElement(_TaskCards2['default'], _extends({}, this.props, { probe: this.state.probe, setComponent: this.setComponent.bind(this, 'QuestionStyle') }));
 	          case 'MessageStyle':
@@ -49687,7 +49687,11 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _taskListing = __webpack_require__(853);
+	var _ProbeList = __webpack_require__(853);
+	
+	var _ProbeList2 = _interopRequireDefault(_ProbeList);
+	
+	var _taskListing = __webpack_require__(854);
 	
 	var _taskListing2 = _interopRequireDefault(_taskListing);
 	
@@ -49729,6 +49733,7 @@
 	              'Little summary of the project'
 	            )
 	          ),
+	          _react2['default'].createElement(_ProbeList2['default'], this.props),
 	          _react2['default'].createElement(
 	            'div',
 	            { className: 'task-list__tabs' },
@@ -49777,6 +49782,165 @@
 
 /***/ },
 /* 853 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var ProbeList = function (_Component) {
+	  _inherits(ProbeList, _Component);
+	
+	  function ProbeList() {
+	    _classCallCheck(this, ProbeList);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(ProbeList).apply(this, arguments));
+	  }
+	
+	  _createClass(ProbeList, [{
+	    key: 'personTest',
+	    value: function () {
+	      function personTest(probe) {
+	        return probe.recipient === 'Jane Fonda' && probe.outstanding === 'participant';
+	      }
+	
+	      return personTest;
+	    }()
+	  }, {
+	    key: 'getClassName',
+	    value: function () {
+	      function getClassName() {
+	        var block = 'probe-list__summary';
+	        if (this.props.openProbeNav) {
+	          return block + ' ' + block + '--active';
+	        }
+	        return block;
+	      }
+	
+	      return getClassName;
+	    }()
+	  }, {
+	    key: 'getProbes',
+	    value: function () {
+	      function getProbes() {
+	        var probes = [];
+	
+	        for (var i = 0; i < this.props.probes.length; i++) {
+	          var project = this.props.probes[i];
+	          for (var j = 0; j < project.tasks.length; j++) {
+	            var task = project.tasks[j];
+	            for (var k = 0; k < task.probes.length; k++) {
+	              var probe = task.probes[k];
+	              if (this.personTest(probe)) {
+	                probes.push(probe);
+	              }
+	            }
+	          }
+	        }
+	
+	        return probes;
+	      }
+	
+	      return getProbes;
+	    }()
+	  }, {
+	    key: 'countProbes',
+	    value: function () {
+	      function countProbes() {
+	        return this.getProbes().length;
+	      }
+	
+	      return countProbes;
+	    }()
+	  }, {
+	    key: 'render',
+	    value: function () {
+	      function render() {
+	        var _this2 = this;
+	
+	        var _props = this.props;
+	        var probes = _props.probes;
+	        var setComponent = _props.setComponent;
+	
+	
+	        if (this.countProbes() === 0) {
+	          return _react2['default'].createElement('div', null);
+	        }
+	        return _react2['default'].createElement(
+	          'div',
+	          { className: 'probe-list' },
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'probe-list__heading' },
+	            'You\'ve been asked a question'
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'probe-list__content' },
+	            this.getProbes().map(function (probe) {
+	              return _react2['default'].createElement(
+	                'div',
+	                { className: 'probe-summary', onClick: setComponent.bind(_this2, probe) },
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'probe-summary__from' },
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'probe-summary__avatar' },
+	                    _react2['default'].createElement('img', { className: 'probe-summary-avatar', src: probe.messages[0].avatar })
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'probe-summary__researcher' },
+	                    probe.researcher,
+	                    ' asked you a question'
+	                  )
+	                ),
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'probe-summary__content' },
+	                  probe.messages[0].content
+	                )
+	              );
+	            })
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return ProbeList;
+	}(_react.Component);
+	
+	ProbeList.propTypes = {};
+	
+	exports['default'] = ProbeList;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "ProbeList.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 854 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -49822,7 +49986,7 @@
 	};
 
 /***/ },
-/* 854 */
+/* 855 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49841,31 +50005,31 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ProbeCard = __webpack_require__(855);
+	var _ProbeCard = __webpack_require__(856);
 	
 	var _ProbeCard2 = _interopRequireDefault(_ProbeCard);
 	
-	var _MainCard = __webpack_require__(856);
+	var _MainCard = __webpack_require__(857);
 	
 	var _MainCard2 = _interopRequireDefault(_MainCard);
 	
-	var _AnytimeCard = __webpack_require__(857);
+	var _AnytimeCard = __webpack_require__(858);
 	
 	var _AnytimeCard2 = _interopRequireDefault(_AnytimeCard);
 	
-	var _HistoryCard = __webpack_require__(858);
+	var _HistoryCard = __webpack_require__(859);
 	
 	var _HistoryCard2 = _interopRequireDefault(_HistoryCard);
 	
-	var _ProfileCard = __webpack_require__(859);
+	var _ProfileCard = __webpack_require__(860);
 	
 	var _ProfileCard2 = _interopRequireDefault(_ProfileCard);
 	
-	var _SupportCard = __webpack_require__(860);
+	var _SupportCard = __webpack_require__(861);
 	
 	var _SupportCard2 = _interopRequireDefault(_SupportCard);
 	
-	var _taskListing = __webpack_require__(853);
+	var _taskListing = __webpack_require__(854);
 	
 	var _taskListing2 = _interopRequireDefault(_taskListing);
 	
@@ -49935,7 +50099,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 855 */
+/* 856 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50038,7 +50202,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 856 */
+/* 857 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50113,7 +50277,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 857 */
+/* 858 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50188,7 +50352,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 858 */
+/* 859 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50263,7 +50427,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 859 */
+/* 860 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50346,7 +50510,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 860 */
+/* 861 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50429,7 +50593,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 861 */
+/* 862 */
 /***/ function(module, exports) {
 
 	module.exports = {
