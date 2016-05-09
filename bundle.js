@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "fc01d9d38ff428acf041"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "77b04836b12d49297d9d"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -40181,7 +40181,7 @@
 	exports.i(__webpack_require__(563), "");
 	
 	// module
-	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  border: 1px solid;\n  display: flex;\n  margin: 10px auto;\n  max-width: 1200px; }\n  .probe-inbox--participant {\n    margin: 0 auto;\n    max-width: 800px; }\n    .probe-inbox--participant .probe-conversation {\n      position: relative; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000;\n    padding: 10px; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column;\n  height: 700px;\n  overflow: auto; }\n\n.message-menu-project {\n  border-bottom: 1px solid #000; }\n  .message-menu-project__name {\n    font-weight: bold;\n    font-size: 16px;\n    border-bottom: 1px solid #ccc;\n    padding: 10px 0; }\n  .message-menu-project__tasks {\n    padding-left: 10px; }\n\n.message-menu-task {\n  border-bottom: 1px solid #ccc; }\n  .message-menu-task:last-child {\n    border-bottom: none; }\n  .message-menu-task__name {\n    font-size: 14px;\n    padding: 5px 0; }\n  .message-menu-task__probes {\n    padding-left: 10px;\n    font-size: 12px; }\n\n.message-menu-item {\n  border-bottom: 1px solid #ccc;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:nth-child(odd) {\n    background: #eee; }\n  .message-menu-item--active {\n    background: #000 !important;\n    color: #fff; }\n  .message-menu-item:last-child {\n    border-bottom: none; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    bottom: 0;\n    height: 130px;\n    position: absolute;\n    width: 100%; }\n  .message-stream__messages {\n    height: 570px;\n    overflow: hidden;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute;\n  width: 100%; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px;\n  width: 60%; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right;\n    align-self: flex-end; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea, .float-label__text {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder, .float-label__text::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder, .float-label__text--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active, .float-label__text--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__text {\n    min-height: 30px;\n    background: transparent !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  flex-direction: row;\n  margin: 10px 0;\n  width: 100%; }\n  .response-grid__fixcolumn {\n    width: 200px; }\n  .response-grid__scrollcolumn {\n    flex: 1;\n    overflow: auto;\n    position: relative; }\n  .response-grid__scrollcontent {\n    position: absolute; }\n  .response-grid__row {\n    display: flex; }\n    .response-grid__row--header {\n      font-weight: bold; }\n      .response-grid__row--header .response-grid__cell {\n        height: 50px;\n        padding: 10px; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 30px 10px;\n    width: 200px;\n    height: 150px;\n    box-sizing: border-box; }\n\n.start-probe {\n  transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n  width: 0px; }\n  .start-probe__content {\n    transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n    background: #fff;\n    border: 1px solid #ccc;\n    box-sizing: border-box;\n    height: 100%;\n    padding: 10px;\n    position: fixed;\n    right: -310px;\n    top: 0;\n    visibility: hidden;\n    width: 310px; }\n  .start-probe--active {\n    width: 300px; }\n    .start-probe--active .start-probe__content {\n      visibility: visible;\n      right: 0; }\n  .start-probe__background {\n    display: none; }\n  .start-probe__header {\n    margin: 30px 0;\n    font-size: 16px;\n    display: flex;\n    justify-content: space-between; }\n  .start-probe__date {\n    font-size: 10px;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 30px 0; }\n  .start-probe__action {\n    margin: 30px 0;\n    text-align: right; }\n\n.start-probe-cancel {\n  background: transparent;\n  border: none;\n  color: #a00000;\n  font-size: 20px; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    right: 0;\n    z-index: 20000;\n    top: 48px; }\n    .probe-alert__summary--active {\n      display: block; }\n\n.probe-alert-icon {\n  position: relative;\n  width: 30px;\n  height: 30px;\n  padding: 10px; }\n  .probe-alert-icon::before {\n    content: '\\25CF';\n    position: absolute;\n    color: #c90000;\n    right: 6px;\n    top: 5px;\n    font-size: 30px; }\n\n.probe-summary {\n  text-transform: none;\n  padding: 10px;\n  border-bottom: 1px solid #ccc;\n  display: flex;\n  flex-direction: column;\n  position: relative; }\n  .probe-summary::before {\n    content: '\\27A4';\n    position: absolute;\n    right: 5px;\n    font-size: 20px;\n    top: 38px;\n    color: #30C8C0; }\n  .probe-summary:nth-child(even) {\n    background: #ededed; }\n  .probe-summary:hover {\n    background: #f5f5f5; }\n  .probe-summary:last-child {\n    border-bottom: none; }\n  .probe-summary__researcher {\n    font-weight: bold; }\n  .probe-summary__action {\n    display: flex;\n    flex-direction: row-reverse; }\n  .probe-summary__from {\n    display: flex;\n    flex-direction: row; }\n  .probe-summary__avatar {\n    width: 30px;\n    margin-right: 10px; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    cursor: pointer;\n    border-bottom: 1px solid #ccc; }\n\n.changer-role__actions {\n  display: none; }\n  .changer-role__actions--active {\n    display: block; }\n\n.changer-role-story {\n  border-bottom: 1px solid #ccc;\n  padding: 5px 0;\n  margin: 5px 0; }\n  .changer-role-story__heading {\n    font-size: 11px; }\n  .changer-role-story__actions {\n    display: flex;\n    flex-direction: column; }\n    .changer-role-story__actions button {\n      font-size: 10px;\n      font-weight: bold;\n      position: relative;\n      background: none;\n      border: none;\n      padding: 0; }\n      .changer-role-story__actions button.active {\n        color: #f00; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n\n.task-list__cards {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around; }\n  .task-list__cards .task-list-card {\n    width: 32%;\n    border: 1px solid #ccc;\n    padding: 10px;\n    box-sizing: border-box;\n    margin: 10px 0; }\n    .task-list__cards .task-list-card__header {\n      font-size: 16px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid #ccc;\n      margin-bottom: 8px;\n      font-weight: bold; }\n    .task-list__cards .task-list-card__item {\n      padding: 5px 0;\n      margin: 5px 0;\n      border-bottom: 1px solid #ccc;\n      position: relative;\n      cursor: pointer; }\n      .task-list__cards .task-list-card__item:last-child {\n        border-bottom: none; }\n      .task-list__cards .task-list-card__item::before {\n        position: absolute;\n        right: 5px;\n        color: #30C8C0; }\n      .task-list__cards .task-list-card__item--start::before {\n        content: '\\27A4'; }\n      .task-list__cards .task-list-card__item--view::before {\n        content: '\\1F441'; }\n      .task-list__cards .task-list-card__item--action::before {\n        content: '\\270E'; }\n\n.probe-list {\n  margin: 30px 0;\n  display: flex;\n  flex-direction: column; }\n  .probe-list__heading {\n    font-size: 28px;\n    padding: 10px 0;\n    margin: 5px 0;\n    border-bottom: 1px solid #ccc; }\n  .probe-list__content {\n    border-bottom: 1px solid #ccc; }\n    .probe-list__content .probe-summary {\n      cursor: pointer; }\n      .probe-list__content .probe-summary::before {\n        right: 30px;\n        top: 24px; }\n", ""]);
+	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  border: 1px solid;\n  display: flex;\n  margin: 10px auto;\n  max-width: 1200px; }\n  .probe-inbox--participant {\n    margin: 0 auto;\n    max-width: 800px; }\n    .probe-inbox--participant .probe-conversation {\n      position: relative; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000;\n    padding: 10px; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column;\n  height: 700px;\n  overflow: auto; }\n\n.message-menu-project {\n  border-bottom: 1px solid #000; }\n  .message-menu-project__name {\n    font-weight: bold;\n    font-size: 16px;\n    border-bottom: 1px solid #ccc;\n    padding: 10px 0; }\n  .message-menu-project__tasks {\n    padding-left: 10px; }\n\n.message-menu-task {\n  border-bottom: 1px solid #ccc; }\n  .message-menu-task:last-child {\n    border-bottom: none; }\n  .message-menu-task__name {\n    font-size: 14px;\n    padding: 5px 0; }\n  .message-menu-task__probes {\n    padding-left: 10px;\n    font-size: 12px; }\n\n.message-menu-item {\n  border-bottom: 1px solid #ccc;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:nth-child(odd) {\n    background: #eee; }\n  .message-menu-item--active {\n    background: #000 !important;\n    color: #fff; }\n  .message-menu-item:last-child {\n    border-bottom: none; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-menu-filter__item--radios {\n  display: flex; }\n\n.message-menu-radio {\n  display: flex;\n  padding: 10px; }\n  .message-menu-radio__label {\n    padding-right: 5px; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative;\n  display: flex;\n  flex-direction: column; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    height: 130px;\n    width: 100%; }\n  .message-stream__messages {\n    flex: 1;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute;\n  width: 100%;\n  max-height: 100%;\n  overflow: auto; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px;\n  width: 60%; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right;\n    align-self: flex-end; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__buttons {\n    display: flex;\n    flex-direction: row-reverse; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0 10px 20px; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea, .float-label__text {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder, .float-label__text::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder, .float-label__text--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active, .float-label__text--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__text {\n    min-height: 30px;\n    background: transparent !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  flex-direction: row;\n  margin: 10px 0;\n  width: 100%; }\n  .response-grid__fixcolumn {\n    width: 200px; }\n  .response-grid__scrollcolumn {\n    flex: 1;\n    overflow: auto;\n    position: relative; }\n  .response-grid__scrollcontent {\n    position: absolute; }\n  .response-grid__row {\n    display: flex; }\n    .response-grid__row--header {\n      font-weight: bold; }\n      .response-grid__row--header .response-grid__cell {\n        height: 50px;\n        padding: 10px; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 30px 10px;\n    width: 200px;\n    height: 150px;\n    box-sizing: border-box; }\n\n.start-probe {\n  transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n  width: 0px; }\n  .start-probe__content {\n    transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n    background: #fff;\n    border: 1px solid #ccc;\n    box-sizing: border-box;\n    height: 100%;\n    padding: 10px;\n    position: fixed;\n    right: -310px;\n    top: 0;\n    visibility: hidden;\n    width: 310px; }\n  .start-probe--active {\n    width: 300px; }\n    .start-probe--active .start-probe__content {\n      visibility: visible;\n      right: 0; }\n  .start-probe__background {\n    display: none; }\n  .start-probe__header {\n    margin: 30px 0;\n    font-size: 16px;\n    display: flex;\n    justify-content: space-between; }\n  .start-probe__date {\n    font-size: 10px;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 30px 0; }\n  .start-probe__action {\n    margin: 30px 0;\n    text-align: right; }\n\n.start-probe-cancel {\n  background: transparent;\n  border: none;\n  color: #a00000;\n  font-size: 20px; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    right: 0;\n    z-index: 20000;\n    top: 48px; }\n    .probe-alert__summary--active {\n      display: block; }\n\n.probe-alert-icon {\n  position: relative;\n  width: 30px;\n  height: 30px;\n  padding: 10px; }\n  .probe-alert-icon::before {\n    content: '\\25CF';\n    position: absolute;\n    color: #c90000;\n    right: 6px;\n    top: 5px;\n    font-size: 30px; }\n\n.probe-summary {\n  text-transform: none;\n  padding: 10px;\n  border-bottom: 1px solid #ccc;\n  display: flex;\n  flex-direction: column;\n  position: relative; }\n  .probe-summary::before {\n    content: '\\27A4';\n    position: absolute;\n    right: 5px;\n    font-size: 20px;\n    top: 38px;\n    color: #30C8C0; }\n  .probe-summary:nth-child(even) {\n    background: #ededed; }\n  .probe-summary:hover {\n    background: #f5f5f5; }\n  .probe-summary:last-child {\n    border-bottom: none; }\n  .probe-summary__researcher {\n    font-weight: bold; }\n  .probe-summary__action {\n    display: flex;\n    flex-direction: row-reverse; }\n  .probe-summary__from {\n    display: flex;\n    flex-direction: row; }\n  .probe-summary__avatar {\n    width: 30px;\n    margin-right: 10px; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    cursor: pointer;\n    border-bottom: 1px solid #ccc; }\n\n.changer-role__actions {\n  display: none; }\n  .changer-role__actions--active {\n    display: block; }\n\n.changer-role-story {\n  border-bottom: 1px solid #ccc;\n  padding: 5px 0;\n  margin: 5px 0; }\n  .changer-role-story__heading {\n    font-size: 11px; }\n  .changer-role-story__actions {\n    display: flex;\n    flex-direction: column; }\n    .changer-role-story__actions button {\n      font-size: 10px;\n      font-weight: bold;\n      position: relative;\n      background: none;\n      border: none;\n      padding: 0; }\n      .changer-role-story__actions button.active {\n        color: #f00; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px;\n  position: relative;\n  overflow: hidden; }\n  .question-probe::before {\n    background: #fff;\n    content: '';\n    height: 100%;\n    left: 0;\n    opacity: 0;\n    position: absolute;\n    top: 0;\n    transition: all 1s cubic-bezier(0.45, 1.08, 0.62, 0.76);\n    visibility: hidden;\n    width: 100%; }\n  .question-probe::after {\n    background: #fff;\n    border: 1px solid #ededed;\n    box-shadow: 2px 2px 2px #ccc;\n    box-sizing: border-box;\n    color: #888;\n    content: 'Thanks for answering this...';\n    font-size: 20px;\n    left: 20%;\n    opacity: 0;\n    padding: 10px;\n    position: absolute;\n    text-align: center;\n    top: 120%;\n    transition: opacity 0.4s ease, top 0.24s cubic-bezier(1, -0.02, 0.63, 1.17);\n    visibility: hidden;\n    width: 60%; }\n  .question-probe--loading::before {\n    background: #fefefe;\n    opacity: 1;\n    visibility: visible;\n    z-index: 1; }\n  .question-probe--loading::after {\n    opacity: 1;\n    top: 80%;\n    visibility: visible;\n    z-index: 2; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n\n.task-list__cards {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around; }\n  .task-list__cards .task-list-card {\n    width: 32%;\n    border: 1px solid #ccc;\n    padding: 10px;\n    box-sizing: border-box;\n    margin: 10px 0; }\n    .task-list__cards .task-list-card__header {\n      font-size: 16px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid #ccc;\n      margin-bottom: 8px;\n      font-weight: bold; }\n    .task-list__cards .task-list-card__item {\n      padding: 5px 0;\n      margin: 5px 0;\n      border-bottom: 1px solid #ccc;\n      position: relative;\n      cursor: pointer; }\n      .task-list__cards .task-list-card__item:last-child {\n        border-bottom: none; }\n      .task-list__cards .task-list-card__item::before {\n        position: absolute;\n        right: 5px;\n        color: #30C8C0; }\n      .task-list__cards .task-list-card__item--start::before {\n        content: '\\27A4'; }\n      .task-list__cards .task-list-card__item--view::before {\n        content: '\\1F441'; }\n      .task-list__cards .task-list-card__item--action::before {\n        content: '\\270E'; }\n\n.probe-list {\n  margin: 30px 0;\n  display: flex;\n  flex-direction: column; }\n  .probe-list__heading {\n    font-size: 28px;\n    padding: 10px 0;\n    margin: 5px 0;\n    border-bottom: 1px solid #ccc; }\n  .probe-list__content {\n    border-bottom: 1px solid #ccc; }\n    .probe-list__content .probe-summary {\n      cursor: pointer; }\n      .probe-list__content .probe-summary::before {\n        right: 30px;\n        top: 24px; }\n\n.response-context {\n  height: 100px;\n  display: flex;\n  flex-direction: row;\n  background: #e5e5e5;\n  border-bottom: 1px solid #ccc; }\n  .response-context__task {\n    font-size: 18px;\n    padding: 10px; }\n\n.response-responses {\n  display: flex; }\n  .response-responses__response {\n    padding: 5px; }\n", ""]);
 	
 	// exports
 
@@ -46445,31 +46445,31 @@
 	
 	var _Inbox2 = _interopRequireDefault(_Inbox);
 	
-	var _MessageStyle = __webpack_require__(846);
+	var _MessageStyle = __webpack_require__(847);
 	
 	var _MessageStyle2 = _interopRequireDefault(_MessageStyle);
 	
-	var _QuestionStyle = __webpack_require__(847);
+	var _QuestionStyle = __webpack_require__(848);
 	
 	var _QuestionStyle2 = _interopRequireDefault(_QuestionStyle);
 	
-	var _ParticipantProfile = __webpack_require__(849);
+	var _ParticipantProfile = __webpack_require__(850);
 	
 	var _ParticipantProfile2 = _interopRequireDefault(_ParticipantProfile);
 	
-	var _ResponseGrid = __webpack_require__(851);
+	var _ResponseGrid = __webpack_require__(852);
 	
 	var _ResponseGrid2 = _interopRequireDefault(_ResponseGrid);
 	
-	var _TaskList = __webpack_require__(852);
+	var _TaskList = __webpack_require__(853);
 	
 	var _TaskList2 = _interopRequireDefault(_TaskList);
 	
-	var _TaskCards = __webpack_require__(855);
+	var _TaskCards = __webpack_require__(856);
 	
 	var _TaskCards2 = _interopRequireDefault(_TaskCards);
 	
-	var _probes = __webpack_require__(862);
+	var _probes = __webpack_require__(863);
 	
 	var _probes2 = _interopRequireDefault(_probes);
 	
@@ -46649,6 +46649,7 @@
 	        switch (this.state.component) {
 	          case 'Inbox':
 	            return _react2['default'].createElement(_Inbox2['default'], {
+	              type: this.state.type,
 	              probes: this.state.probes,
 	              probe: this.state.probe,
 	              addMessage: this.addMessage,
@@ -46659,7 +46660,7 @@
 	          case 'ParticipantProfileSide':
 	            return _react2['default'].createElement(_ParticipantProfile2['default'], { modifier: 'start-probe--sidebar', addProbe: this.addProbe.bind(this) });
 	          case 'ResponseGrid':
-	            return _react2['default'].createElement(_ResponseGrid2['default'], { modifier: 'start-probe--sidebar', addProbe: this.addProbe.bind(this) });
+	            return _react2['default'].createElement(_ResponseGrid2['default'], { modifier: 'start-probe--sidebar', addProbe: this.addProbe.bind(this), probes: this.state.probes });
 	          case 'TaskList':
 	            return _react2['default'].createElement(_TaskList2['default'], _extends({}, this.props, { probes: this.state.probes, setComponent: this.setComponent.bind(this, 'QuestionStyle') }));
 	          case 'TaskCards':
@@ -46669,7 +46670,8 @@
 	          case 'QuestionStyle':
 	            return _react2['default'].createElement(_QuestionStyle2['default'], {
 	              probe: this.state.probe,
-	              addMessage: this.addMessage
+	              addMessage: this.addMessage,
+	              setComponent: this.setComponent.bind(this, 'TaskList')
 	            });
 	          default:
 	            return _react2['default'].createElement(_ParticipantProfile2['default'], null);
@@ -47789,7 +47791,7 @@
 	    _this.onFocusBlur = _this.onFocusBlur.bind(_this);
 	    _this.onChange = _this.onChange.bind(_this);
 	    _this.getProbes = _this.getProbes.bind(_this);
-	    _this.state = { active: false, text: '' };
+	    _this.state = { active: false, archived: false, text: '' };
 	    return _this;
 	  }
 	
@@ -47852,25 +47854,62 @@
 	      return isActiveOrNotBlank;
 	    }()
 	  }, {
+	    key: 'setArchived',
+	    value: function () {
+	      function setArchived(archived) {
+	        this.setState({ archived: archived });
+	      }
+	
+	      return setArchived;
+	    }()
+	  }, {
 	    key: 'renderFilter',
 	    value: function () {
 	      function renderFilter() {
 	        return _react2['default'].createElement(
 	          'div',
-	          { className: 'probe-message-reply-response__response float-label' },
+	          { className: 'message-menu-filter' },
 	          _react2['default'].createElement(
-	            'label',
-	            { className: this.getClassName('__label') },
-	            'Find by project'
+	            'div',
+	            { className: 'message-menu-filter__item probe-message-reply-response__response float-label' },
+	            _react2['default'].createElement(
+	              'label',
+	              { className: this.getClassName('__label') },
+	              'Find by project'
+	            ),
+	            _react2['default'].createElement('input', {
+	              type: 'text',
+	              className: this.getClassName('__text'),
+	              onFocus: this.onFocusBlur,
+	              onBlur: this.onFocusBlur,
+	              onChange: this.onChange,
+	              value: this.state.text
+	            })
 	          ),
-	          _react2['default'].createElement('input', {
-	            type: 'text',
-	            className: this.getClassName('__text'),
-	            onFocus: this.onFocusBlur,
-	            onBlur: this.onFocusBlur,
-	            onChange: this.onChange,
-	            value: this.state.text
-	          })
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'message-menu-filter__item message-menu-filter__item--radios' },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'message-menu-radio' },
+	              _react2['default'].createElement(
+	                'label',
+	                { className: 'message-menu-radio__label' },
+	                'Active'
+	              ),
+	              _react2['default'].createElement('input', { type: 'radio', name: 'archived', checked: !this.state.archived && 'true', onChange: this.setArchived.bind(this, false) })
+	            ),
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'message-menu-radio' },
+	              _react2['default'].createElement(
+	                'label',
+	                { className: 'message-menu-radio__label' },
+	                'Archived'
+	              ),
+	              _react2['default'].createElement('input', { type: 'radio', name: 'archived', checked: this.state.archived && 'true', onChange: this.setArchived.bind(this, true) })
+	            )
+	          )
 	        );
 	      }
 	
@@ -47907,11 +47946,7 @@
 	        return _react2['default'].createElement(
 	          'div',
 	          { className: 'message-menu' },
-	          _react2['default'].createElement(
-	            'div',
-	            { className: 'message-menu-filter' },
-	            this.renderFilter()
-	          ),
+	          this.renderFilter(),
 	          this.getProbes().map(function (project) {
 	            return _react2['default'].createElement(
 	              'div',
@@ -47937,25 +47972,27 @@
 	                      'div',
 	                      { className: 'message-menu-task__probes' },
 	                      task.probes.map(function (probe) {
-	                        return _react2['default'].createElement(
-	                          'div',
-	                          { className: _this3.getItemClass(probe), onClick: _this3.setProbe.bind(_this3, probe) },
-	                          _react2['default'].createElement(
+	                        if (probe.archived === _this3.state.archived) {
+	                          return _react2['default'].createElement(
 	                            'div',
-	                            { className: 'message-menu-item__recipient' },
-	                            probe.recipient
-	                          ),
-	                          _react2['default'].createElement(
-	                            'div',
-	                            { className: 'message-menu-item__subject' },
-	                            probe.subject
-	                          ),
-	                          _react2['default'].createElement(
-	                            'div',
-	                            { className: 'message-menu-item__date' },
-	                            probe.datetime
-	                          )
-	                        );
+	                            { className: _this3.getItemClass(probe), onClick: _this3.setProbe.bind(_this3, probe) },
+	                            _react2['default'].createElement(
+	                              'div',
+	                              { className: 'message-menu-item__recipient' },
+	                              probe.recipient
+	                            ),
+	                            _react2['default'].createElement(
+	                              'div',
+	                              { className: 'message-menu-item__subject' },
+	                              probe.subject
+	                            ),
+	                            _react2['default'].createElement(
+	                              'div',
+	                              { className: 'message-menu-item__date' },
+	                              probe.datetime
+	                            )
+	                          );
+	                        }
 	                      })
 	                    )
 	                  );
@@ -48413,6 +48450,10 @@
 	
 	var _Reply2 = _interopRequireDefault(_Reply);
 	
+	var _ResponseContext = __webpack_require__(846);
+	
+	var _ResponseContext2 = _interopRequireDefault(_ResponseContext);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -48437,6 +48478,11 @@
 	        return _react2['default'].createElement(
 	          'div',
 	          { className: 'message-stream' },
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'message-stream__context' },
+	            _react2['default'].createElement(_ResponseContext2['default'], this.props)
+	          ),
 	          _react2['default'].createElement(
 	            'div',
 	            { className: 'message-stream__messages' },
@@ -48500,6 +48546,15 @@
 	  }
 	
 	  _createClass(Conversation, [{
+	    key: 'componentDidUpdate',
+	    value: function () {
+	      function componentDidUpdate() {
+	        this.refs.probey.scrollTop = this.refs.probey.scrollHeight;
+	      }
+	
+	      return componentDidUpdate;
+	    }()
+	  }, {
 	    key: 'sortedMessages',
 	    value: function () {
 	      function sortedMessages() {
@@ -48526,7 +48581,7 @@
 	
 	        return _react2['default'].createElement(
 	          'div',
-	          { className: 'probe-conversation' },
+	          { className: 'probe-conversation', ref: 'probey' },
 	          this.sortedMessages().map(function (message) {
 	            return _react2['default'].createElement(
 	              'div',
@@ -48673,6 +48728,15 @@
 	      return replyClick;
 	    }()
 	  }, {
+	    key: 'archiveClick',
+	    value: function () {
+	      function archiveClick() {
+	        alert("Don't touch me");
+	      }
+	
+	      return archiveClick;
+	    }()
+	  }, {
 	    key: 'render',
 	    value: function () {
 	      function render() {
@@ -48701,8 +48765,17 @@
 	            ),
 	            _react2['default'].createElement(
 	              'div',
-	              { className: 'probe-message-reply-response__button' },
-	              _react2['default'].createElement('input', { type: 'button', value: this.props.replyText, onClick: this.replyClick })
+	              { className: 'probe-message-reply-response__buttons' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'probe-message-reply-response__button' },
+	                _react2['default'].createElement('input', { type: 'button', value: this.props.replyText, onClick: this.replyClick })
+	              ),
+	              this.props.type === 'researcher' && _react2['default'].createElement(
+	                'div',
+	                { className: 'probe-message-reply-response__button' },
+	                _react2['default'].createElement('input', { type: 'button', value: 'Archive', onClick: this.archiveClick })
+	              )
 	            )
 	          )
 	        );
@@ -48724,6 +48797,121 @@
 
 /***/ },
 /* 846 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var ResponseContext = function (_Component) {
+	  _inherits(ResponseContext, _Component);
+	
+	  function ResponseContext() {
+	    _classCallCheck(this, ResponseContext);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(ResponseContext).apply(this, arguments));
+	  }
+	
+	  _createClass(ResponseContext, [{
+	    key: "render",
+	    value: function () {
+	      function render() {
+	        return _react2["default"].createElement(
+	          "div",
+	          { className: "response-context" },
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "response-context__task" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "project-name" },
+	              "Flora & Fauna"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "task-name" },
+	              "Things about animals"
+	            )
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "response-context__response" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "response-responses" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "response-responses__response" },
+	                "I am the walrus"
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "response-responses__response" },
+	                "Help"
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "response-responses__response" },
+	                "Yellow Submarine"
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "response-responses__response" },
+	                "Elenor Rigby"
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "response-metadata" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "response-metadata__date" },
+	                "Wednesday 27th Aprile 2016 11:26am UTC"
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "response-metadata__iteration" },
+	                "5"
+	              )
+	            )
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return ResponseContext;
+	}(_react.Component);
+	
+	ResponseContext.propTypes = {};
+	
+	exports["default"] = ResponseContext;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "ResponseContext.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 847 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -48791,7 +48979,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 847 */
+/* 848 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -48810,7 +48998,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ProbeStimulus = __webpack_require__(848);
+	var _ProbeStimulus = __webpack_require__(849);
 	
 	var _ProbeStimulus2 = _interopRequireDefault(_ProbeStimulus);
 	
@@ -48836,12 +49024,25 @@
 	  }
 	
 	  _createClass(QuestionStyle, [{
+	    key: 'messageAdd',
+	    value: function () {
+	      function messageAdd(content) {
+	        var blockName = 'question-probe';
+	        var box = this.refs.box;
+	        box.className = blockName + ' ' + blockName + '--loading';
+	        this.props.addMessage(content);
+	        window.setTimeout(this.props.setComponent, 1200);
+	      }
+	
+	      return messageAdd;
+	    }()
+	  }, {
 	    key: 'render',
 	    value: function () {
 	      function render() {
 	        return _react2['default'].createElement(
 	          'div',
-	          { className: 'question-probe' },
+	          { className: 'question-probe', ref: 'box' },
 	          _react2['default'].createElement(
 	            'div',
 	            { className: 'question-probe__stimulus' },
@@ -48850,7 +49051,7 @@
 	          _react2['default'].createElement(
 	            'div',
 	            { className: 'question-probe__response' },
-	            _react2['default'].createElement(_Reply2['default'], _extends({}, this.props, { replyText: 'Finish' }))
+	            _react2['default'].createElement(_Reply2['default'], _extends({}, this.props, { addMessage: this.messageAdd.bind(this), replyText: 'Finish' }))
 	          )
 	        );
 	      }
@@ -48870,7 +49071,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 848 */
+/* 849 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -48922,13 +49123,11 @@
 	          _react2["default"].createElement(
 	            "div",
 	            { className: "probe-stimulus__content" },
-	            messages.map(function (message) {
-	              return _react2["default"].createElement(
-	                "div",
-	                { className: "probe-stimulus-message" },
-	                message.content
-	              );
-	            })
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "probe-stimulus-message" },
+	              firstMessage.content
+	            )
 	          )
 	        );
 	      }
@@ -48948,7 +49147,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 849 */
+/* 850 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -48967,7 +49166,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _StartProbe = __webpack_require__(850);
+	var _StartProbe = __webpack_require__(851);
 	
 	var _StartProbe2 = _interopRequireDefault(_StartProbe);
 	
@@ -49178,7 +49377,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 850 */
+/* 851 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49405,7 +49604,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 851 */
+/* 852 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49424,7 +49623,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _StartProbe = __webpack_require__(850);
+	var _StartProbe = __webpack_require__(851);
 	
 	var _StartProbe2 = _interopRequireDefault(_StartProbe);
 	
@@ -49469,6 +49668,52 @@
 	      }
 	
 	      return toggleProbe;
+	    }()
+	  }, {
+	    key: 'probeExists',
+	    value: function () {
+	      function probeExists(participant) {
+	        for (var i = 0; i < this.props.probes.length; i++) {
+	          var project = this.props.probes[i];
+	          for (var j = 0; j < project.tasks.length; j++) {
+	            var task = project.tasks[j];
+	            for (var k = 0; k < task.probes.length; k++) {
+	              var probe = task.probes[k];
+	              if (probe.recipient == participant) {
+	                return true;
+	              }
+	            }
+	          }
+	        }
+	        return false;
+	      }
+	
+	      return probeExists;
+	    }()
+	  }, {
+	    key: 'renderButton',
+	    value: function () {
+	      function renderButton(participant) {
+	        var band = 'fleetwood mac';
+	        if (participant === 'Jane Fonda') {
+	          band = 'beatles';
+	        }
+	
+	        if (this.probeExists(participant)) {
+	          return _react2['default'].createElement(
+	            'button',
+	            { onClick: this.toggleProbe.bind(this, band) },
+	            'View Probe'
+	          );
+	        }
+	        return _react2['default'].createElement(
+	          'button',
+	          { onClick: this.toggleProbe.bind(this, band) },
+	          'Probe This Response'
+	        );
+	      }
+	
+	      return renderButton;
 	    }()
 	  }, {
 	    key: 'render',
@@ -49527,11 +49772,7 @@
 	                      _react2['default'].createElement(
 	                        'div',
 	                        { className: 'response-grid-action' },
-	                        _react2['default'].createElement(
-	                          'button',
-	                          { onClick: this.toggleProbe.bind(this, 'beatles') },
-	                          'Probe This Response'
-	                        )
+	                        this.renderButton('Jane Fonda')
 	                      )
 	                    )
 	                  ),
@@ -49554,11 +49795,7 @@
 	                      _react2['default'].createElement(
 	                        'div',
 	                        { className: 'response-grid-action' },
-	                        _react2['default'].createElement(
-	                          'button',
-	                          { onClick: this.toggleProbe.bind(this, 'fleetwood mac') },
-	                          'Probe This Response'
-	                        )
+	                        this.renderButton('Christine McVie')
 	                      )
 	                    )
 	                  )
@@ -49670,7 +49907,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 852 */
+/* 853 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49687,11 +49924,11 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ProbeList = __webpack_require__(853);
+	var _ProbeList = __webpack_require__(854);
 	
 	var _ProbeList2 = _interopRequireDefault(_ProbeList);
 	
-	var _taskListing = __webpack_require__(854);
+	var _taskListing = __webpack_require__(855);
 	
 	var _taskListing2 = _interopRequireDefault(_taskListing);
 	
@@ -49781,7 +50018,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 853 */
+/* 854 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49940,7 +50177,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 854 */
+/* 855 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -49986,7 +50223,7 @@
 	};
 
 /***/ },
-/* 855 */
+/* 856 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50005,31 +50242,31 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ProbeCard = __webpack_require__(856);
+	var _ProbeCard = __webpack_require__(857);
 	
 	var _ProbeCard2 = _interopRequireDefault(_ProbeCard);
 	
-	var _MainCard = __webpack_require__(857);
+	var _MainCard = __webpack_require__(858);
 	
 	var _MainCard2 = _interopRequireDefault(_MainCard);
 	
-	var _AnytimeCard = __webpack_require__(858);
+	var _AnytimeCard = __webpack_require__(859);
 	
 	var _AnytimeCard2 = _interopRequireDefault(_AnytimeCard);
 	
-	var _HistoryCard = __webpack_require__(859);
+	var _HistoryCard = __webpack_require__(860);
 	
 	var _HistoryCard2 = _interopRequireDefault(_HistoryCard);
 	
-	var _ProfileCard = __webpack_require__(860);
+	var _ProfileCard = __webpack_require__(861);
 	
 	var _ProfileCard2 = _interopRequireDefault(_ProfileCard);
 	
-	var _SupportCard = __webpack_require__(861);
+	var _SupportCard = __webpack_require__(862);
 	
 	var _SupportCard2 = _interopRequireDefault(_SupportCard);
 	
-	var _taskListing = __webpack_require__(854);
+	var _taskListing = __webpack_require__(855);
 	
 	var _taskListing2 = _interopRequireDefault(_taskListing);
 	
@@ -50099,7 +50336,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 856 */
+/* 857 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50193,7 +50430,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 857 */
+/* 858 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50268,7 +50505,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 858 */
+/* 859 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50343,7 +50580,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 859 */
+/* 860 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50418,7 +50655,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 860 */
+/* 861 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50501,7 +50738,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 861 */
+/* 862 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -50584,7 +50821,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 862 */
+/* 863 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -50618,6 +50855,7 @@
 								"subject": "You said you eat people",
 								"datetime": "4:29 Friday, 29 April 2016",
 								"outstanding": "participant",
+								"archived": false,
 								"messages": [
 									{
 										"author": "Jerry Gergigh",
@@ -50634,6 +50872,7 @@
 								"subject": "You said you got banned from Wales",
 								"datetime": "4:10 Friday, 29 April 2016",
 								"outstanding": "participant",
+								"archived": false,
 								"messages": [
 									{
 										"author": "Jerry Gergigh",
@@ -50655,6 +50894,7 @@
 								"subject": "You said you cooked your own hand",
 								"datetime": "3:29 Friday, 29 April 2016",
 								"outstanding": "participant",
+								"archived": false,
 								"messages": [
 									{
 										"author": "Jerry Gergigh",
@@ -50671,6 +50911,7 @@
 								"subject": "You said your favourite colour was tarmac",
 								"datetime": "3:10 Friday, 29 April 2016",
 								"outstanding": "participant",
+								"archived": false,
 								"messages": [
 									{
 										"author": "Jerry Gergigh",
@@ -50706,6 +50947,7 @@
 								"subject": "You said you favour hens over boats",
 								"datetime": "2:29 Friday, 29 April 2016",
 								"outstanding": "participant",
+								"archived": false,
 								"messages": [
 									{
 										"author": "Jerry Gergigh",
@@ -50721,7 +50963,8 @@
 								"recipient": "Chunky Bob",
 								"subject": "You said wolves are the tits, wheyooo!",
 								"datetime": "2:10 Friday, 29 April 2016",
-								"outstanding": "participant",
+								"outstanding": "nobody",
+								"archived": true,
 								"messages": [
 									{
 										"author": "Jerry Gergigh",
@@ -50743,6 +50986,7 @@
 								"subject": "You said you had two sets of feet",
 								"datetime": "1:29 Friday, 29 April 2016",
 								"outstanding": "participant",
+								"archived": false,
 								"messages": [
 									{
 										"author": "Jerry Gergigh",
