@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "77b04836b12d49297d9d"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "f1799b9204b130fca66f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -40181,7 +40181,7 @@
 	exports.i(__webpack_require__(563), "");
 	
 	// module
-	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  border: 1px solid;\n  display: flex;\n  margin: 10px auto;\n  max-width: 1200px; }\n  .probe-inbox--participant {\n    margin: 0 auto;\n    max-width: 800px; }\n    .probe-inbox--participant .probe-conversation {\n      position: relative; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000;\n    padding: 10px; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column;\n  height: 700px;\n  overflow: auto; }\n\n.message-menu-project {\n  border-bottom: 1px solid #000; }\n  .message-menu-project__name {\n    font-weight: bold;\n    font-size: 16px;\n    border-bottom: 1px solid #ccc;\n    padding: 10px 0; }\n  .message-menu-project__tasks {\n    padding-left: 10px; }\n\n.message-menu-task {\n  border-bottom: 1px solid #ccc; }\n  .message-menu-task:last-child {\n    border-bottom: none; }\n  .message-menu-task__name {\n    font-size: 14px;\n    padding: 5px 0; }\n  .message-menu-task__probes {\n    padding-left: 10px;\n    font-size: 12px; }\n\n.message-menu-item {\n  border-bottom: 1px solid #ccc;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:nth-child(odd) {\n    background: #eee; }\n  .message-menu-item--active {\n    background: #000 !important;\n    color: #fff; }\n  .message-menu-item:last-child {\n    border-bottom: none; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-menu-filter__item--radios {\n  display: flex; }\n\n.message-menu-radio {\n  display: flex;\n  padding: 10px; }\n  .message-menu-radio__label {\n    padding-right: 5px; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative;\n  display: flex;\n  flex-direction: column; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    height: 130px;\n    width: 100%; }\n  .message-stream__messages {\n    flex: 1;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute;\n  width: 100%;\n  max-height: 100%;\n  overflow: auto; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px;\n  width: 60%; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right;\n    align-self: flex-end; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__buttons {\n    display: flex;\n    flex-direction: row-reverse; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0 10px 20px; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea, .float-label__text {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder, .float-label__text::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder, .float-label__text--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active, .float-label__text--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__text {\n    min-height: 30px;\n    background: transparent !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  flex-direction: row;\n  margin: 10px 0;\n  width: 100%; }\n  .response-grid__fixcolumn {\n    width: 200px; }\n  .response-grid__scrollcolumn {\n    flex: 1;\n    overflow: auto;\n    position: relative; }\n  .response-grid__scrollcontent {\n    position: absolute; }\n  .response-grid__row {\n    display: flex; }\n    .response-grid__row--header {\n      font-weight: bold; }\n      .response-grid__row--header .response-grid__cell {\n        height: 50px;\n        padding: 10px; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 30px 10px;\n    width: 200px;\n    height: 150px;\n    box-sizing: border-box; }\n\n.start-probe {\n  transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n  width: 0px; }\n  .start-probe__content {\n    transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n    background: #fff;\n    border: 1px solid #ccc;\n    box-sizing: border-box;\n    height: 100%;\n    padding: 10px;\n    position: fixed;\n    right: -310px;\n    top: 0;\n    visibility: hidden;\n    width: 310px; }\n  .start-probe--active {\n    width: 300px; }\n    .start-probe--active .start-probe__content {\n      visibility: visible;\n      right: 0; }\n  .start-probe__background {\n    display: none; }\n  .start-probe__header {\n    margin: 30px 0;\n    font-size: 16px;\n    display: flex;\n    justify-content: space-between; }\n  .start-probe__date {\n    font-size: 10px;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 30px 0; }\n  .start-probe__action {\n    margin: 30px 0;\n    text-align: right; }\n\n.start-probe-cancel {\n  background: transparent;\n  border: none;\n  color: #a00000;\n  font-size: 20px; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    right: 0;\n    z-index: 20000;\n    top: 48px; }\n    .probe-alert__summary--active {\n      display: block; }\n\n.probe-alert-icon {\n  position: relative;\n  width: 30px;\n  height: 30px;\n  padding: 10px; }\n  .probe-alert-icon::before {\n    content: '\\25CF';\n    position: absolute;\n    color: #c90000;\n    right: 6px;\n    top: 5px;\n    font-size: 30px; }\n\n.probe-summary {\n  text-transform: none;\n  padding: 10px;\n  border-bottom: 1px solid #ccc;\n  display: flex;\n  flex-direction: column;\n  position: relative; }\n  .probe-summary::before {\n    content: '\\27A4';\n    position: absolute;\n    right: 5px;\n    font-size: 20px;\n    top: 38px;\n    color: #30C8C0; }\n  .probe-summary:nth-child(even) {\n    background: #ededed; }\n  .probe-summary:hover {\n    background: #f5f5f5; }\n  .probe-summary:last-child {\n    border-bottom: none; }\n  .probe-summary__researcher {\n    font-weight: bold; }\n  .probe-summary__action {\n    display: flex;\n    flex-direction: row-reverse; }\n  .probe-summary__from {\n    display: flex;\n    flex-direction: row; }\n  .probe-summary__avatar {\n    width: 30px;\n    margin-right: 10px; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    cursor: pointer;\n    border-bottom: 1px solid #ccc; }\n\n.changer-role__actions {\n  display: none; }\n  .changer-role__actions--active {\n    display: block; }\n\n.changer-role-story {\n  border-bottom: 1px solid #ccc;\n  padding: 5px 0;\n  margin: 5px 0; }\n  .changer-role-story__heading {\n    font-size: 11px; }\n  .changer-role-story__actions {\n    display: flex;\n    flex-direction: column; }\n    .changer-role-story__actions button {\n      font-size: 10px;\n      font-weight: bold;\n      position: relative;\n      background: none;\n      border: none;\n      padding: 0; }\n      .changer-role-story__actions button.active {\n        color: #f00; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px;\n  position: relative;\n  overflow: hidden; }\n  .question-probe::before {\n    background: #fff;\n    content: '';\n    height: 100%;\n    left: 0;\n    opacity: 0;\n    position: absolute;\n    top: 0;\n    transition: all 1s cubic-bezier(0.45, 1.08, 0.62, 0.76);\n    visibility: hidden;\n    width: 100%; }\n  .question-probe::after {\n    background: #fff;\n    border: 1px solid #ededed;\n    box-shadow: 2px 2px 2px #ccc;\n    box-sizing: border-box;\n    color: #888;\n    content: 'Thanks for answering this...';\n    font-size: 20px;\n    left: 20%;\n    opacity: 0;\n    padding: 10px;\n    position: absolute;\n    text-align: center;\n    top: 120%;\n    transition: opacity 0.4s ease, top 0.24s cubic-bezier(1, -0.02, 0.63, 1.17);\n    visibility: hidden;\n    width: 60%; }\n  .question-probe--loading::before {\n    background: #fefefe;\n    opacity: 1;\n    visibility: visible;\n    z-index: 1; }\n  .question-probe--loading::after {\n    opacity: 1;\n    top: 80%;\n    visibility: visible;\n    z-index: 2; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n\n.task-list__cards {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around; }\n  .task-list__cards .task-list-card {\n    width: 32%;\n    border: 1px solid #ccc;\n    padding: 10px;\n    box-sizing: border-box;\n    margin: 10px 0; }\n    .task-list__cards .task-list-card__header {\n      font-size: 16px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid #ccc;\n      margin-bottom: 8px;\n      font-weight: bold; }\n    .task-list__cards .task-list-card__item {\n      padding: 5px 0;\n      margin: 5px 0;\n      border-bottom: 1px solid #ccc;\n      position: relative;\n      cursor: pointer; }\n      .task-list__cards .task-list-card__item:last-child {\n        border-bottom: none; }\n      .task-list__cards .task-list-card__item::before {\n        position: absolute;\n        right: 5px;\n        color: #30C8C0; }\n      .task-list__cards .task-list-card__item--start::before {\n        content: '\\27A4'; }\n      .task-list__cards .task-list-card__item--view::before {\n        content: '\\1F441'; }\n      .task-list__cards .task-list-card__item--action::before {\n        content: '\\270E'; }\n\n.probe-list {\n  margin: 30px 0;\n  display: flex;\n  flex-direction: column; }\n  .probe-list__heading {\n    font-size: 28px;\n    padding: 10px 0;\n    margin: 5px 0;\n    border-bottom: 1px solid #ccc; }\n  .probe-list__content {\n    border-bottom: 1px solid #ccc; }\n    .probe-list__content .probe-summary {\n      cursor: pointer; }\n      .probe-list__content .probe-summary::before {\n        right: 30px;\n        top: 24px; }\n\n.response-context {\n  height: 100px;\n  display: flex;\n  flex-direction: row;\n  background: #e5e5e5;\n  border-bottom: 1px solid #ccc; }\n  .response-context__task {\n    font-size: 18px;\n    padding: 10px; }\n\n.response-responses {\n  display: flex; }\n  .response-responses__response {\n    padding: 5px; }\n", ""]);
+	exports.push([module.id, "#root {\n  height: 100%; }\n\n.opinion-container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; }\n\n.opinion-content {\n  display: block;\n  flex: 1 0 auto; }\n\n.header-navigation,\n.footer-navigation {\n  box-sizing: border-box;\n  flex: none;\n  width: 100%; }\n\n.probe-inbox {\n  border: 1px solid;\n  display: flex;\n  margin: 10px auto;\n  max-width: 1200px; }\n  .probe-inbox--participant {\n    margin: 0 auto;\n    max-width: 800px; }\n    .probe-inbox--participant .probe-conversation {\n      position: relative; }\n  .probe-inbox__message-list {\n    width: 300px;\n    border-right: 1px solid #000;\n    padding: 10px; }\n  .probe-inbox__current-probe {\n    flex: 1 0; }\n\n.message-menu {\n  display: flex;\n  flex-direction: column;\n  height: 700px;\n  overflow: auto; }\n\n.message-menu-project {\n  border-bottom: 1px solid #000; }\n  .message-menu-project__name {\n    font-weight: bold;\n    font-size: 16px;\n    border-bottom: 1px solid #ccc;\n    padding: 10px 0; }\n  .message-menu-project__tasks {\n    padding-left: 10px; }\n\n.message-menu-task {\n  border-bottom: 1px solid #ccc; }\n  .message-menu-task:last-child {\n    border-bottom: none; }\n  .message-menu-task__name {\n    font-size: 14px;\n    padding: 5px 0; }\n  .message-menu-task__probes {\n    padding-left: 10px;\n    font-size: 12px; }\n\n.message-menu-item {\n  border-bottom: 1px solid #ccc;\n  cursor: pointer;\n  min-height: 60px;\n  padding: 5px; }\n  .message-menu-item:nth-child(odd) {\n    background: #eee; }\n  .message-menu-item--active {\n    background: #000 !important;\n    color: #fff; }\n  .message-menu-item:last-child {\n    border-bottom: none; }\n  .message-menu-item__recipient {\n    font-weight: bold; }\n  .message-menu-item__date {\n    font-size: 10px;\n    font-weight: bold;\n    text-align: right; }\n\n.message-menu-filter__item--radios {\n  display: flex; }\n\n.message-menu-radio {\n  display: flex;\n  padding: 10px; }\n  .message-menu-radio__label {\n    padding-right: 5px; }\n\n.message-stream {\n  height: 700px;\n  margin-left: 10px;\n  max-height: 100%;\n  position: relative;\n  display: flex;\n  flex-direction: column; }\n  .message-stream__reply {\n    background: #fff;\n    border-top: 1px solid #ccc;\n    height: 130px;\n    width: 100%; }\n  .message-stream__messages {\n    flex: 1;\n    position: relative; }\n\n.probe-conversation {\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n  position: absolute;\n  width: 100%;\n  max-height: 100%;\n  overflow: auto; }\n\n.probe-conversation-message {\n  margin: 10px;\n  background: #efefef;\n  border-radius: 5px;\n  padding: 10px;\n  width: 60%; }\n  .probe-conversation-message__avatar {\n    height: 26px;\n    margin: 5px;\n    width: 26px; }\n  .probe-conversation-message__from {\n    display: flex;\n    font-weight: bold; }\n  .probe-conversation-message__author {\n    margin: 6px 0; }\n  .probe-conversation-message__date {\n    font-size: 10px; }\n  .probe-conversation-message--researcher {\n    text-align: right;\n    align-self: flex-end; }\n    .probe-conversation-message--researcher .probe-conversation-message__from {\n      flex-direction: row-reverse; }\n\n.probe-message-reply {\n  display: flex;\n  flex-direction: column;\n  padding: 24px; }\n\n.probe-message-reply-response {\n  display: flex;\n  flex-direction: column; }\n  .probe-message-reply-response__response {\n    flex: 1; }\n  .probe-message-reply-response__buttons {\n    display: flex;\n    flex-direction: row-reverse; }\n  .probe-message-reply-response__button {\n    display: flex;\n    flex-direction: row-reverse;\n    margin: 10px 0 10px 20px; }\n    .probe-message-reply-response__button button {\n      width: 100%; }\n\n.float-label {\n  position: relative; }\n  .float-label__textarea, .float-label__text {\n    background: transparent;\n    border: 1px solid #ccc !important;\n    box-shadow: none !important;\n    box-sizing: border-box;\n    margin: 0;\n    min-height: 80px;\n    padding: 10px 5px 0;\n    position: relative;\n    resize: none !important;\n    width: 100%; }\n    .float-label__textarea::placeholder, .float-label__text::placeholder {\n      color: transparent; }\n    .float-label__textarea--active::placeholder, .float-label__text--active::placeholder {\n      color: #ccc; }\n    .float-label__textarea--active, .float-label__text--active {\n      border: 1px solid transparent !important;\n      border-bottom: 1px solid #ccc !important; }\n  .float-label__text {\n    min-height: 30px;\n    background: transparent !important; }\n  .float-label__label {\n    color: #ccc;\n    left: 6px;\n    position: absolute;\n    top: 6px;\n    transition: all .15s ease 0s; }\n    .float-label__label--active {\n      font-size: 11px;\n      top: -16px; }\n\n.participant-profile {\n  display: flex; }\n  .participant-profile__menu {\n    border-right: 1px solid #ccc;\n    padding: 10px;\n    width: 200px; }\n  .participant-profile__content {\n    flex: 1 0;\n    padding: 10px; }\n  .participant-profile__header {\n    border-bottom: 1px solid #ccc; }\n\n.response-grid {\n  display: flex;\n  flex-direction: row;\n  margin: 10px 0;\n  width: 100%; }\n  .response-grid__fixcolumn {\n    width: 200px; }\n  .response-grid__scrollcolumn {\n    flex: 1;\n    overflow: auto;\n    position: relative; }\n  .response-grid__scrollcontent {\n    position: absolute; }\n  .response-grid__row {\n    display: flex; }\n    .response-grid__row--header {\n      font-weight: bold; }\n      .response-grid__row--header .response-grid__cell {\n        height: 50px;\n        padding: 10px; }\n  .response-grid__cell {\n    border: 1px solid #ccc;\n    padding: 30px 10px;\n    width: 200px;\n    height: 150px;\n    box-sizing: border-box; }\n\n.start-probe {\n  transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n  width: 0px; }\n  .start-probe__content {\n    transition: all 0.5s cubic-bezier(0.57, 0.08, 0.22, 1.23);\n    background: #fff;\n    border: 1px solid #ccc;\n    box-sizing: border-box;\n    height: 100%;\n    padding: 10px;\n    position: fixed;\n    right: -310px;\n    top: 0;\n    visibility: hidden;\n    width: 310px; }\n  .start-probe--active {\n    width: 300px; }\n    .start-probe--active .start-probe__content {\n      visibility: visible;\n      right: 0; }\n  .start-probe__background {\n    display: none; }\n  .start-probe__header {\n    margin: 30px 0;\n    font-size: 16px;\n    display: flex;\n    justify-content: space-between; }\n  .start-probe__date {\n    font-size: 10px;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n  .start-probe__response {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__response b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__from {\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0;\n    border-bottom: 1px solid #ccc; }\n    .start-probe__from b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__to {\n    border-bottom: 1px solid #ccc;\n    display: flex;\n    flex-direction: column;\n    margin: 30px 0; }\n    .start-probe__to b {\n      color: #ccc;\n      font-size: 10px;\n      font-weight: normal; }\n  .start-probe__message {\n    margin: 30px 0; }\n  .start-probe__action {\n    margin: 30px 0;\n    text-align: right; }\n\n.start-probe-cancel {\n  background: transparent;\n  border: none;\n  color: #a00000;\n  font-size: 20px; }\n\n.probe-alert {\n  cursor: pointer;\n  float: right;\n  height: 50px;\n  width: 50px;\n  position: relative; }\n  .probe-alert__summary {\n    display: none;\n    position: absolute;\n    width: 300px;\n    background: #fff;\n    border: 1px solid #ccc;\n    right: 0;\n    z-index: 20000;\n    top: 48px; }\n    .probe-alert__summary--active {\n      display: block; }\n\n.probe-alert-icon {\n  position: relative;\n  width: 30px;\n  height: 30px;\n  padding: 10px; }\n  .probe-alert-icon::before {\n    content: '\\25CF';\n    position: absolute;\n    color: #c90000;\n    right: 6px;\n    top: 5px;\n    font-size: 30px; }\n\n.probe-summary {\n  text-transform: none;\n  padding: 10px;\n  border-bottom: 1px solid #ccc;\n  display: flex;\n  flex-direction: column;\n  position: relative; }\n  .probe-summary::before {\n    content: '\\27A4';\n    position: absolute;\n    right: 5px;\n    font-size: 20px;\n    top: 38px;\n    color: #30C8C0; }\n  .probe-summary:nth-child(even) {\n    background: #ededed; }\n  .probe-summary:hover {\n    background: #f5f5f5; }\n  .probe-summary:last-child {\n    border-bottom: none; }\n  .probe-summary__researcher {\n    font-weight: bold; }\n  .probe-summary__action {\n    display: flex;\n    flex-direction: row-reverse; }\n  .probe-summary__from {\n    display: flex;\n    flex-direction: row; }\n  .probe-summary__avatar {\n    width: 30px;\n    margin-right: 10px; }\n\n.task-list {\n  margin: 0 auto;\n  width: 1200px;\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n  .task-list__project {\n    background: #efefef; }\n  .task-list__tabs {\n    display: flex;\n    flex-direction: row;\n    margin-top: 10px; }\n    .task-list__tabs .tab {\n      border-left: 1px solid #ccc;\n      border-right: 1px solid #ccc;\n      border-top: 1px solid #ccc;\n      padding: 10px;\n      border-radius: 5px 5px 0 0; }\n      .task-list__tabs .tab:first-child {\n        border-color: #30C8C0; }\n\n.task-list-listing {\n  display: flex;\n  flex-direction: column; }\n  .task-list-listing__item {\n    border-bottom: 1px solid #ccc;\n    font-size: 18px;\n    padding: 15px 0; }\n\n.stepper {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: flex;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.stepper-persona__name {\n  font-size: 18px; }\n\n.stepper-persona__steps {\n  display: flex;\n  flex-direction: row; }\n\n.stepper-persona-step__action {\n  padding: 10px;\n  margin: 0 5px;\n  cursor: pointer; }\n\n.stepper-persona-step__explanation {\n  display: none;\n  position: fixed;\n  top: 20px;\n  left: 35%;\n  width: 30%;\n  background: #fff;\n  z-index: 10000;\n  padding: 20px;\n  box-sizing: border-box;\n  border: 5px solid #000000; }\n\n.stepper-persona-step--active .stepper-persona-step__action {\n  font-weight: bold;\n  color: #a00; }\n\n.stepper-persona-step--active .stepper-persona-step__explanation {\n  display: block; }\n\n.changer {\n  background: #fff;\n  border: 3px solid #f00;\n  bottom: 0;\n  box-shadow: 3px -3px 3px #aaa;\n  display: none;\n  flex-direction: column;\n  left: 0;\n  padding: 5px 20px;\n  position: fixed;\n  z-index: 10000000; }\n\n.changer-role {\n  border-bottom: 1px solid #333;\n  padding: 5px 0; }\n  .changer-role__header {\n    font-weight: bold;\n    cursor: pointer;\n    border-bottom: 1px solid #ccc; }\n\n.changer-role__actions {\n  display: none; }\n  .changer-role__actions--active {\n    display: block; }\n\n.changer-role-story {\n  border-bottom: 1px solid #ccc;\n  padding: 5px 0;\n  margin: 5px 0; }\n  .changer-role-story__heading {\n    font-size: 11px; }\n  .changer-role-story__actions {\n    display: flex;\n    flex-direction: column; }\n    .changer-role-story__actions button {\n      font-size: 10px;\n      font-weight: bold;\n      position: relative;\n      background: none;\n      border: none;\n      padding: 0; }\n      .changer-role-story__actions button.active {\n        color: #f00; }\n\n.question-probe {\n  border: 1px solid #ccc;\n  margin: 10px;\n  padding: 10px;\n  width: 480px;\n  position: relative;\n  overflow: hidden; }\n  .question-probe::before {\n    background: #fff;\n    content: '';\n    height: 100%;\n    left: 0;\n    opacity: 0;\n    position: absolute;\n    top: 0;\n    transition: all 1s cubic-bezier(0.45, 1.08, 0.62, 0.76);\n    visibility: hidden;\n    width: 100%; }\n  .question-probe::after {\n    background: #fff;\n    border: 1px solid #ededed;\n    box-shadow: 2px 2px 2px #ccc;\n    box-sizing: border-box;\n    color: #888;\n    content: 'Thanks for answering this...';\n    font-size: 20px;\n    left: 20%;\n    opacity: 0;\n    padding: 10px;\n    position: absolute;\n    text-align: center;\n    top: 120%;\n    transition: opacity 0.4s ease, top 0.24s cubic-bezier(1, -0.02, 0.63, 1.17);\n    visibility: hidden;\n    width: 60%; }\n  .question-probe--loading::before {\n    background: #fefefe;\n    opacity: 1;\n    visibility: visible;\n    z-index: 1; }\n  .question-probe--loading::after {\n    opacity: 1;\n    top: 80%;\n    visibility: visible;\n    z-index: 2; }\n\n.probe-stimulus__from {\n  font-weight: bold;\n  margin: 10px 0; }\n\n.probe-stimulus-message {\n  padding: 10px 0;\n  border-top: 1px solid #ccc; }\n  .probe-stimulus-message:first-child {\n    border-top: none; }\n\n.task-list__cards {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around; }\n  .task-list__cards .task-list-card {\n    width: 32%;\n    border: 1px solid #ccc;\n    padding: 10px;\n    box-sizing: border-box;\n    margin: 10px 0; }\n    .task-list__cards .task-list-card__header {\n      font-size: 16px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid #ccc;\n      margin-bottom: 8px;\n      font-weight: bold; }\n    .task-list__cards .task-list-card__item {\n      padding: 5px 0;\n      margin: 5px 0;\n      border-bottom: 1px solid #ccc;\n      position: relative;\n      cursor: pointer; }\n      .task-list__cards .task-list-card__item:last-child {\n        border-bottom: none; }\n      .task-list__cards .task-list-card__item::before {\n        position: absolute;\n        right: 5px;\n        color: #30C8C0; }\n      .task-list__cards .task-list-card__item--start::before {\n        content: '\\27A4'; }\n      .task-list__cards .task-list-card__item--view::before {\n        content: '\\1F441'; }\n      .task-list__cards .task-list-card__item--action::before {\n        content: '\\270E'; }\n\n.probe-list {\n  margin: 30px 0;\n  display: flex;\n  flex-direction: column; }\n  .probe-list__heading {\n    font-size: 28px;\n    padding: 10px 0;\n    margin: 5px 0;\n    border-bottom: 1px solid #ccc; }\n  .probe-list__content {\n    border-bottom: 1px solid #ccc; }\n    .probe-list__content .probe-summary {\n      cursor: pointer; }\n      .probe-list__content .probe-summary::before {\n        right: 30px;\n        top: 24px; }\n\n.response-context {\n  height: 100px;\n  display: flex;\n  flex-direction: row;\n  background: #e5e5e5;\n  border-bottom: 1px solid #ccc; }\n  .response-context__task {\n    font-size: 18px;\n    padding: 10px; }\n\n.response-responses {\n  display: flex; }\n  .response-responses__response {\n    padding: 5px; }\n", ""]);
 	
 	// exports
 
@@ -46469,7 +46469,11 @@
 	
 	var _TaskCards2 = _interopRequireDefault(_TaskCards);
 	
-	var _probes = __webpack_require__(863);
+	var _Stepper = __webpack_require__(863);
+	
+	var _Stepper2 = _interopRequireDefault(_Stepper);
+	
+	var _probes = __webpack_require__(864);
 	
 	var _probes2 = _interopRequireDefault(_probes);
 	
@@ -46495,20 +46499,44 @@
 	      openProbeNav: false,
 	      probe: _probes2['default'].probes[0].tasks[0].probes[0],
 	      probes: _probes2['default'].probes,
-	      component: 'Inbox',
+	      component: 'ParticipantProfileSide',
 	      unreadProbes: 0,
 	      type: 'researcher',
-	      expandedList: ''
+	      expandedList: '',
+	      showProbe: false,
+	      probeText: '',
+	      messageText: ''
 	    };
 	    _this.toggleMenu = _this.toggleMenu.bind(_this);
 	    _this.toggleProbeNav = _this.toggleProbeNav.bind(_this);
 	    _this.hideMenu = _this.hideMenu.bind(_this);
 	    _this.addMessage = _this.addMessage.bind(_this);
 	    _this.pickComponent = _this.pickComponent.bind(_this);
+	    _this.toggleProbe = _this.toggleProbe.bind(_this);
+	    _this.updatePropeText = _this.updatePropeText.bind(_this);
+	    _this.updateMessageText = _this.updateMessageText.bind(_this);
 	    return _this;
 	  }
 	
 	  _createClass(App, [{
+	    key: 'updateMessageText',
+	    value: function () {
+	      function updateMessageText(value) {
+	        this.setState({ messageText: value });
+	      }
+	
+	      return updateMessageText;
+	    }()
+	  }, {
+	    key: 'archiveProbe',
+	    value: function () {
+	      function archiveProbe() {
+	        alert('Archiving the probe...');
+	      }
+	
+	      return archiveProbe;
+	    }()
+	  }, {
 	    key: 'setCurrentProbe',
 	    value: function () {
 	      function setCurrentProbe(probe) {
@@ -46536,6 +46564,15 @@
 	      return toggleProbeNav;
 	    }()
 	  }, {
+	    key: 'toggleProbe',
+	    value: function () {
+	      function toggleProbe() {
+	        this.setState({ showProbe: !this.state.showProbe });
+	      }
+	
+	      return toggleProbe;
+	    }()
+	  }, {
 	    key: 'hideMenu',
 	    value: function () {
 	      function hideMenu() {
@@ -46553,12 +46590,13 @@
 	    key: 'addMessage',
 	    value: function () {
 	      function addMessage(content) {
+	        var type = arguments.length <= 1 || arguments[1] === undefined ? this.state.type : arguments[1];
+	
 	        var datetime = new Date().toString();
 	        var avatar = 'http://www.cbc.ca/smartestperson/content/image/avatar-placeholder.png';
-	        var type = this.state.type;
-	        var author = this.state.type === 'researcher' ? 'Jerry Gergich' : 'Jane Fonda';
+	        var author = type === 'researcher' ? 'Jerry Gergich' : 'Jane Fonda';
 	
-	        var outstanding = this.state.type === 'researcher' ? 'participant' : 'researcher';
+	        var outstanding = type === 'researcher' ? 'participant' : 'researcher';
 	
 	        var message = {
 	          author: author, datetime: datetime, content: content, avatar: avatar, type: type
@@ -46653,12 +46691,15 @@
 	              probes: this.state.probes,
 	              probe: this.state.probe,
 	              addMessage: this.addMessage,
-	              setCurrentProbe: this.setCurrentProbe
+	              setCurrentProbe: this.setCurrentProbe,
+	              updateMessageText: this.updateMessageText,
+	              messageText: this.state.messageText,
+	              archiveProbe: this.archiveProbe
 	            });
 	          case 'ParticipantProfile':
 	            return _react2['default'].createElement(_ParticipantProfile2['default'], { modifier: 'start-probe--lightbox', addProbe: this.addProbe.bind(this) });
 	          case 'ParticipantProfileSide':
-	            return _react2['default'].createElement(_ParticipantProfile2['default'], { modifier: 'start-probe--sidebar', addProbe: this.addProbe.bind(this) });
+	            return _react2['default'].createElement(_ParticipantProfile2['default'], { modifier: 'start-probe--sidebar', addProbe: this.addProbe.bind(this), showProbe: this.state.showProbe, toggleProbe: this.toggleProbe, updatePropeText: this.updatePropeText, probeText: this.state.probeText });
 	          case 'ResponseGrid':
 	            return _react2['default'].createElement(_ResponseGrid2['default'], { modifier: 'start-probe--sidebar', addProbe: this.addProbe.bind(this), probes: this.state.probes });
 	          case 'TaskList':
@@ -46736,6 +46777,15 @@
 	      return setProbeComponent;
 	    }()
 	  }, {
+	    key: 'updatePropeText',
+	    value: function () {
+	      function updatePropeText(value) {
+	        this.setState({ probeText: value });
+	      }
+	
+	      return updatePropeText;
+	    }()
+	  }, {
 	    key: 'render',
 	    value: function () {
 	      function render() {
@@ -46769,6 +46819,21 @@
 	            { className: 'opinion-content' },
 	            this.pickComponent()
 	          ),
+	          _react2['default'].createElement(_Stepper2['default'], {
+	            openProbeNav: openProbeNav,
+	            toggleProbeNav: this.toggleProbeNav,
+	            toggleProbe: this.toggleProbe,
+	            unreadProbes: this.state.unreadProbes,
+	            probe: this.state.probe,
+	            probes: this.state.probes,
+	            type: this.state.type,
+	            setComponent: this.setComponent.bind(this),
+	            addMessage: this.addMessage,
+	            addProbe: this.addProbe.bind(this),
+	            updatePropeText: this.updatePropeText,
+	            updateMessageText: this.updateMessageText,
+	            archiveProbe: this.archiveProbe
+	          }),
 	          _react2['default'].createElement(
 	            'div',
 	            { className: 'changer' },
@@ -48669,7 +48734,7 @@
 	    _this.onFocusBlur = _this.onFocusBlur.bind(_this);
 	    _this.onChange = _this.onChange.bind(_this);
 	    _this.replyClick = _this.replyClick.bind(_this);
-	    _this.state = { active: false, text: '' };
+	    _this.state = { active: false };
 	    return _this;
 	  }
 	
@@ -48686,7 +48751,7 @@
 	    key: 'onChange',
 	    value: function () {
 	      function onChange(event) {
-	        this.setState({ text: event.target.value });
+	        this.props.updateMessageText(event.target.value);
 	      }
 	
 	      return onChange;
@@ -48711,7 +48776,7 @@
 	    key: 'isActiveOrNotBlank',
 	    value: function () {
 	      function isActiveOrNotBlank() {
-	        return this.state.active || this.state.text !== '';
+	        return this.state.active || this.props.messageText !== '';
 	      }
 	
 	      return isActiveOrNotBlank;
@@ -48722,7 +48787,7 @@
 	      function replyClick() {
 	        var content = this.refs.replybox.refs.textarea.value;
 	        this.props.addMessage(content);
-	        this.setState({ text: '' });
+	        this.props.updateMessageText('');
 	      }
 	
 	      return replyClick;
@@ -48731,7 +48796,7 @@
 	    key: 'archiveClick',
 	    value: function () {
 	      function archiveClick() {
-	        alert("Don't touch me");
+	        this.props.archiveProbe();
 	      }
 	
 	      return archiveClick;
@@ -48759,7 +48824,7 @@
 	                onFocus: this.onFocusBlur,
 	                onBlur: this.onFocusBlur,
 	                onChange: this.onChange,
-	                value: this.state.text,
+	                value: this.props.messageText,
 	                ref: 'replybox'
 	              })
 	            ),
@@ -49184,23 +49249,10 @@
 	  function ParticipantProfile(props) {
 	    _classCallCheck(this, ParticipantProfile);
 	
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(ParticipantProfile).call(this, props));
-	
-	    _this.state = { showProbe: false };
-	    _this.toggleProbe = _this.toggleProbe.bind(_this);
-	    return _this;
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(ParticipantProfile).call(this, props));
 	  }
 	
 	  _createClass(ParticipantProfile, [{
-	    key: 'toggleProbe',
-	    value: function () {
-	      function toggleProbe() {
-	        this.setState({ showProbe: !this.state.showProbe });
-	      }
-	
-	      return toggleProbe;
-	    }()
-	  }, {
 	    key: 'render',
 	    value: function () {
 	      function render() {
@@ -49304,7 +49356,7 @@
 	                { className: 'response-probe' },
 	                _react2['default'].createElement(
 	                  'button',
-	                  { onClick: this.toggleProbe },
+	                  { onClick: this.props.toggleProbe },
 	                  'Probe This Response'
 	                )
 	              ),
@@ -49354,7 +49406,7 @@
 	                _react2['default'].createElement(_StartProbe2['default'], _extends({
 	                  toggleProbe: this.toggleProbe,
 	                  response: response,
-	                  active: this.state.showProbe
+	                  active: this.props.showProbe
 	                }, this.props))
 	              )
 	            )
@@ -49416,7 +49468,7 @@
 	
 	    _this.onFocusBlur = _this.onFocusBlur.bind(_this);
 	    _this.onChange = _this.onChange.bind(_this);
-	    _this.state = { active: false, text: '' };
+	    _this.state = { active: false };
 	    return _this;
 	  }
 	
@@ -49424,7 +49476,7 @@
 	    key: 'sendProbe',
 	    value: function () {
 	      function sendProbe() {
-	        this.props.addProbe(this.state.text);
+	        this.props.addProbe(this.props.probeText);
 	        this.props.toggleProbe();
 	      }
 	
@@ -49443,7 +49495,7 @@
 	    key: 'onChange',
 	    value: function () {
 	      function onChange(event) {
-	        this.setState({ text: event.target.value });
+	        this.props.updatePropeText(event.target.value);
 	      }
 	
 	      return onChange;
@@ -49468,7 +49520,7 @@
 	    key: 'isActiveOrNotBlank',
 	    value: function () {
 	      function isActiveOrNotBlank() {
-	        return this.state.active || this.state.text !== '';
+	        return this.state.active || this.props.probeText !== '';
 	      }
 	
 	      return isActiveOrNotBlank;
@@ -49572,7 +49624,7 @@
 	                onFocus: this.onFocusBlur,
 	                onBlur: this.onFocusBlur,
 	                onChange: this.onChange,
-	                value: this.state.text,
+	                value: this.props.probeText,
 	                ref: 'replybox'
 	              })
 	            ),
@@ -50822,6 +50874,255 @@
 
 /***/ },
 /* 863 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(146); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+	
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(146);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Stepper = function (_Component) {
+	  _inherits(Stepper, _Component);
+	
+	  function Stepper(props) {
+	    _classCallCheck(this, Stepper);
+	
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Stepper).call(this, props));
+	
+	    var steps = [{
+	      number: 1,
+	      explanation: 'Jerry is on the participant profile for a participant.',
+	      func: _this.noop
+	    }, {
+	      number: 2,
+	      explanation: 'Jerry invokes the probe this response button on the iteration he would like to probe.',
+	      func: _this.showProbe
+	    }, {
+	      number: 3,
+	      explanation: 'Jerry fills in the message portion of the new probe',
+	      func: _this.fillInMessage
+	    }, {
+	      number: 4,
+	      explanation: 'Jerry invokes the send button.',
+	      func: _this.sendMessage
+	    }, {
+	      number: 5,
+	      explanation: 'Jerry waits for Jane to respond',
+	      func: _this.noop
+	    }, {
+	      number: 6,
+	      explanation: 'Jerry sees a notification in the header when Jane responds.',
+	      func: _this.janeResponds
+	    }, {
+	      number: 7,
+	      explanation: 'Jerry invokes the notification icon and sees the dropdown menu',
+	      func: _this.openNav
+	    }, {
+	      number: 8,
+	      explanation: 'Jerry selects the probe he wishes to respond to in the notication dropdown',
+	      func: _this.goToInbox
+	    }, {
+	      number: 9,
+	      explanation: 'Jerry is taken to the inbox view for this probe',
+	      func: _this.noop
+	    }, {
+	      number: 10,
+	      explanation: 'Jerry responds to Jane, if he needs to',
+	      func: _this.respondToJane
+	    }, {
+	      number: 11,
+	      explanation: 'Jerry closes / archives the probe so it no longer appears in his or Janes list',
+	      func: _this.archiveProbe
+	    }];
+	    _this.state = {
+	      steps: steps,
+	      currentStep: 1
+	    };
+	    return _this;
+	  }
+	
+	  _createClass(Stepper, [{
+	    key: 'showProbe',
+	    value: function () {
+	      function showProbe(num) {
+	        this.props.toggleProbe();
+	        this.noop(num);
+	      }
+	
+	      return showProbe;
+	    }()
+	  }, {
+	    key: 'getClassName',
+	    value: function () {
+	      function getClassName(number) {
+	        var block = 'stepper-persona-step';
+	        if (number === this.state.currentStep) {
+	          return block + ' ' + block + '--active';
+	        }
+	        return block;
+	      }
+	
+	      return getClassName;
+	    }()
+	  }, {
+	    key: 'fillInMessage',
+	    value: function () {
+	      function fillInMessage(num) {
+	        this.props.updatePropeText('I am a message to Jane');
+	        this.noop(num);
+	      }
+	
+	      return fillInMessage;
+	    }()
+	  }, {
+	    key: 'sendMessage',
+	    value: function () {
+	      function sendMessage(num) {
+	        this.props.addProbe('I am a message to Jane');
+	        this.props.toggleProbe();
+	        this.noop(num);
+	      }
+	
+	      return sendMessage;
+	    }()
+	  }, {
+	    key: 'janeResponds',
+	    value: function () {
+	      function janeResponds(num) {
+	        this.props.addMessage('Hi Jerry, i am responding to you', 'participant');
+	        this.noop(num);
+	      }
+	
+	      return janeResponds;
+	    }()
+	  }, {
+	    key: 'openNav',
+	    value: function () {
+	      function openNav(num) {
+	        this.props.toggleProbeNav();
+	        this.noop(num);
+	      }
+	
+	      return openNav;
+	    }()
+	  }, {
+	    key: 'goToInbox',
+	    value: function () {
+	      function goToInbox(num) {
+	        this.props.setComponent('Inbox');
+	        this.noop(num);
+	      }
+	
+	      return goToInbox;
+	    }()
+	  }, {
+	    key: 'respondToJane',
+	    value: function () {
+	      function respondToJane(num) {
+	        this.props.updateMessageText('Jane, I am responding to you');
+	        this.props.addMessage('Jane, I am responding to you');
+	        this.props.updateMessageText('');
+	        this.noop(num);
+	      }
+	
+	      return respondToJane;
+	    }()
+	  }, {
+	    key: 'archiveProbe',
+	    value: function () {
+	      function archiveProbe(num) {
+	        this.props.archiveProbe();
+	        this.noop(num);
+	      }
+	
+	      return archiveProbe;
+	    }()
+	  }, {
+	    key: 'noop',
+	    value: function () {
+	      function noop(num) {
+	        this.setState({ currentStep: num });
+	      }
+	
+	      return noop;
+	    }()
+	  }, {
+	    key: 'render',
+	    value: function () {
+	      function render() {
+	        var _this2 = this;
+	
+	        return _react2['default'].createElement(
+	          'div',
+	          { className: 'stepper' },
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'stepper__persona stepper-persona' },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'stepper-persona__name' },
+	              'Jerry'
+	            ),
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'stepper-persona__steps' },
+	              this.state.steps.map(function (step) {
+	                return _react2['default'].createElement(
+	                  'div',
+	                  { className: _this2.getClassName(step.number) },
+	                  _react2['default'].createElement(
+	                    'div',
+	                    {
+	                      className: 'stepper-persona-step__action',
+	                      onClick: step.func.bind(_this2, step.number)
+	                    },
+	                    step.number
+	                  ),
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'stepper-persona-step__explanation' },
+	                    step.explanation
+	                  )
+	                );
+	              })
+	            )
+	          )
+	        );
+	      }
+	
+	      return render;
+	    }()
+	  }]);
+	
+	  return Stepper;
+	}(_react.Component);
+	
+	Stepper.propTypes = {};
+	
+	exports['default'] = Stepper;
+	
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(464); if (makeExportsHot(module, __webpack_require__(146))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Stepper.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 864 */
 /***/ function(module, exports) {
 
 	module.exports = {
